@@ -165,7 +165,7 @@ tkltest-ui --help
 
 ## Step 3: Creating the Configuration File
 
-Create a `tkltest_config.toml` file in the root directory of the project you want to create unit tests for. You can use the following code to create:
+Create a `tkltest_config.toml` file in the root directory of the project you want to create unit tests for. You can use the following command to create:
 
 ```sh
 tkltest-unit config init --file tkltest_config.toml
@@ -289,6 +289,24 @@ criterion = ["BRANCH"]
 # Configuration for Randoop test generation - Add your settings here
 ```
 
+To determine the home path of your Java JDK, you can use the following command in your terminal:
+
+```sh
+readlink -f $(which java)
+```
+
+The output will likely resemble the following:
+
+```
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+```
+
+To use this path in your tkltest_config.toml file, you should format it as follows:
+
+```groovy
+java_jdk_home = “/usr/lib/jvm/java-11-openjdk-amd64”
+```
+This ensures that the configuration accurately points to the Java JDK home directory.
 
 ## Step 4: Generating and Executing Test Code
 
