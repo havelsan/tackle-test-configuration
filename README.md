@@ -337,3 +337,6 @@ TackleTest uses different build systems to run the generated tests. Ensure you h
 ## Additional Resources
 
 For more information and detailed documentation, visit the [TackleTest Generator CLI repository](https://github.com/konveyor/tackle-test-generator-cli).
+
+
+**Documented by [Emircan Cakmak](https://github.com/emircancakmakk)**
