@@ -1,5 +1,5 @@
 
-# Tackle-Test Configuration
+# Tackle-Test Configuration for Linux Users
 
 This repository provides a comprehensive guide for setting up and using TackleTest to generate automated unit tests for your Java projects. Follow the steps below to get started.
 
