@@ -1,0 +1,113 @@
+[general]
+# The name of your application - Change this to the name of your application
+app_name = "Tetris"
+
+# The classpath file for your application (leave empty if not applicable)
+app_classpath_file = ""
+
+# The Java JDK home path - Update this to the path where JDK is installed on your system
+java_jdk_home = "/usr/lib/jvm/java-11-openjdk-amd64"
+
+# Directory where the test files will be generated - Update to the desired output directory for test files
+test_directory = "tkltest-output-unit-Tetris/Tetris-ctd-amplified-tests"
+
+# Directory for storing the generated reports - Update to the desired output directory for reports
+reports_path = "tkltest-output-unit-Tetris/Tetris-tkltest-reports"
+
+# Enable verbose logging - Set to true for detailed logs
+verbose = true
+
+# Enable or disable offline instrumentation
+offline_instrumentation = false
+
+# The build system used (e.g., "gradle", "maven", "ant") - Specify your build system
+build_type = "gradle"
+
+# Maximum memory allocated for code coverage in MB - Adjust based on your system capacity
+max_memory_for_coverage = 4096
+
+[generate]
+# Disable differential assertions
+no_diff_assertions = false
+
+# List of target classes for test generation - Specify target classes or leave empty for all classes
+target_class_list = []
+
+# List of classes to exclude from test generation - Specify classes to exclude
+excluded_class_list = []
+
+# Time limit for test generation in minutes - Adjust as needed
+time_limit = 1
+
+# List of build files for your application - Specify the paths to your build files
+app_build_files = ["./build.gradle"]
+
+# Additional build settings files - Specify additional settings files if applicable
+app_build_settings_files = []
+
+# Path to the application's build target - Specify if applicable
+app_build_ant_target = ""
+
+[execute]
+# Packages to include in test execution - Update to match your application's package structure
+app_packages = ["Game.*"]
+
+# Do not create a build file
+no_create_build_file = false
+
+# Enable or disable code coverage
+code_coverage = true
+
+# Specific test class to execute - Specify if you want to run a specific test class
+test_class = ""
+
+# Combine coverage reports from multiple modules
+combine_modules_coverage_reports = false
+
+[dev_tests]
+# Build targets for developer tests - Specify your build targets
+build_targets = ["test"]
+
+# Coverage execution file - Specify if applicable
+coverage_exec_file = ""
+
+# Compare code coverage with a previous run
+compare_code_coverage = false
+
+# Use for test augmentation
+use_for_augmentation = false
+
+# Coverage threshold percentage - Adjust based on your requirements
+coverage_threshold = 100
+
+[config.init]
+# Configuration for initialization - Add your settings here
+
+[config.list]
+# Configuration for listing - Add your settings here
+
+[generate.ctd_amplified]
+# Base test generator to use - Specify the base test generator
+base_test_generator = "combined"
+
+# Disable augmenting coverage
+no_augment_coverage = false
+
+# Disable CTD coverage
+no_ctd_coverage = false
+
+# Interaction level for CTD generation
+interaction_level = 1
+
+# Number of sequential executions
+num_seq_executions = 10
+
+# Reuse base tests
+reuse_base_tests = false
+
+[generate.evosuite]
+# Criteria for EvoSuite test generation - Specify criteria
+criterion = ["BRANCH"]
+
+[generate.randoop]
+# Configuration for Randoop test generation - Add your settings here

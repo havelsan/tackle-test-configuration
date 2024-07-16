@@ -1,0 +1,65 @@
+// Apply the Java and Application plugins
+plugins {
+    // This plugin is used to compile and run Java applications
+    id 'java'
+    // This plugin provides tasks for creating executable Java applications
+    id 'application'
+}
+
+// Define the group ID and version of the project
+group 'com.example' // Replace 'com.example' with your group ID
+version '1.0-SNAPSHOT' // Replace '1.0-SNAPSHOT' with your project version
+
+// Set the source compatibility for Java
+sourceCompatibility = '11' // Set the Java version to 11, modify as needed
+
+// Define the repositories to fetch dependencies from
+repositories {
+    mavenCentral() // Use Maven Central repository
+}
+
+// Define the dependencies required for the project
+dependencies {
+    // Add JUnit Jupiter for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
+    // Add JUnit Platform Launcher to run tests
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Configure the test task
+tasks.named('test', Test) {
+    useJUnitPlatform() // Use JUnit Platform for testing
+
+    maxHeapSize = '1G' // Set the maximum heap size for tests to 1 GB
+
+    testLogging {
+        events "passed" // Log events when tests pass
+    }
+}
+
+// Configure the application plugin
+application {
+    // Specify the main class of the application
+    mainClass = 'Game._Lancher' // Replace 'Game._Lancher' with your main class
+}
+
+// Define the source sets for the project
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src'] // Specify the source directory for Java files
+        }
+        resources {
+            srcDirs = ['src'] // Specify the source directory for resource files
+        }
+    }
+}
+
+// Configure the jar task
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'Game._Lancher' // Set the Main-Class attribute in the manifest file
+        )
+    }
+}
