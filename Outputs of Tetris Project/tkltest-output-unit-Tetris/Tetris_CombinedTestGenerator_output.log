@@ -1,0 +1,1637 @@
+* EvoSuite 1.2.0
+* Found 21 matching classes in target /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-targets
+* Analyzing classpath (generating inheritance tree)
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=10
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:12.269916Z     30.0M used)  - /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-app-copy
+  - /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-targets
+
+Progress update: steps=3, test inputs generated=3, failing inputs=0      (2024-07-12T09:46:13.366550Z     32.0M used)
+Normal method executions: 13
+Exceptional method executions: 1
+
+Average method execution time (normal termination):      0.00994
+Average method execution time (exceptional termination): 0.0941
+Approximate memory usage 32.0M
+Explorer = ForwardGenerator(steps: 3, null steps: 0, num_sequences_generated: 3;
+    allSequences: 3, regresson seqs: 3, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 2 regression sequences.
+
+Regression test output:
+Regression test count: 2
+Writing regression JUnit tests...
+* Current class: Game.Ghost
+* Going to generate test cases for class: Game.Ghost
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Starting Client-0
+* Connecting to master process on port 12749
+Cannot instantiate non-accessible class Game.StatsPanel specified via --testclass or --classlist.
+
+Will try to generate tests for 0 out of 1 classes.
+You provided no methods to test, so no tests for them can be generated.
+
+Additional diagnostis appear below.
+Model with hashcode 709379856:
+  classTypes = [java.lang.Object]
+  inputTypes = []
+  coveredClassesGoal = []
+  classLiteralMap = {}
+  annotatedTestValues = []
+  contracts = ContractSet[size=12]
+    arity 1: [randoop.contract.EqualsReflexive@661e1399, randoop.contract.EqualsToNullRetFalse@3ffd4b12, randoop.contract.EqualsReturnsNormally@424f02b8, randoop.contract.CompareToReflexive@2ad7bd26, randoop.contract.SizeToArrayLength@3cc3f13e]
+    arity 2: [randoop.contract.EqualsSymmetric@69b3886f, randoop.contract.EqualsHashcode@53d30d23, randoop.contract.CompareToAntiSymmetric@44faa4f2, randoop.contract.CompareToEquals@6793f752]
+    arity 3: [randoop.contract.EqualsTransitive@1216eb3f, randoop.contract.CompareToSubs@59e7564b, randoop.contract.CompareToTransitive@482ba4b1]
+  omitMethods = [
+    java\.awt\.Component\.requestFocus\(\)
+    java\.awt\.Component\.requestFocus\(boolean\)
+    java\.awt\.Component\.setVisible\(boolean\)
+    java\.awt\.Component\.show\(\)
+    java\.awt\.Component\.show\(boolean\)
+    java\.awt\.Dialog\.pack\(\)
+    java\.awt\.Dialog\.requestFocus\(\)
+    java\.awt\.Dialog\.setVisible\(boolean\)
+    java\.awt\.Dialog\.show\(\)
+    java\.awt\.Dialog\.show\(boolean\)
+    java\.awt\.Dialog\.toFront\(\)
+    java\.awt\.Frame\.pack\(\)
+    java\.awt\.Frame\.requestFocus\(\)
+    java\.awt\.Frame\.setVisible\(boolean\)
+    java\.awt\.Frame\.show\(\)
+    java\.awt\.Frame\.show\(boolean\)
+    java\.awt\.Frame\.toFront\(\)
+    java\.awt\.GraphicsEnvironment\.checkHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadlessInstance\(\)
+    java\.awt\.Window\.pack\(\)
+    java\.awt\.Window\.requestFocus\(\)
+    java\.awt\.Window\.setVisible\(boolean\)
+    java\.awt\.Window\.show\(\)
+    java\.awt\.Window\.show\(boolean\)
+    java\.awt\.Window\.toFront\(\)
+    java\.lang\.System\.exit\(int\)
+    java\.util\.Random\.<init>\(\)
+    javax\.swing\.JComponent\.requestFocus\(\)
+    javax\.swing\.JComponent\.requestFocus\(boolean\)
+    javax\.swing\.JComponent\.setVisible\(boolean\)
+    javax\.swing\.JComponent\.show\(\)
+    javax\.swing\.JComponent\.show\(boolean\)
+    javax\.swing\.JDialog\.pack\(\)
+    javax\.swing\.JDialog\.requestFocus\(\)
+    javax\.swing\.JDialog\.setVisible\(boolean\)
+    javax\.swing\.JDialog\.show\(\)
+    javax\.swing\.JDialog\.show\(boolean\)
+    javax\.swing\.JDialog\.toFront\(\)
+    javax\.swing\.JFrame\.pack\(\)
+    javax\.swing\.JFrame\.requestFocus\(\)
+    javax\.swing\.JFrame\.setVisible\(boolean\)
+    javax\.swing\.JFrame\.show\(\)
+    javax\.swing\.JFrame\.show\(boolean\)
+    javax\.swing\.JFrame\.toFront\(\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JWindow\.pack\(\)
+    javax\.swing\.JWindow\.requestFocus\(\)
+    javax\.swing\.JWindow\.setVisible\(boolean\)
+    javax\.swing\.JWindow\.show\(\)
+    javax\.swing\.JWindow\.show\(boolean\)
+    javax\.swing\.JWindow\.toFront\(\)
+    \bensuresCapacity\b
+    ^\Qcom.google.common.collect.Iterators.cycle(
+    ^\Qorg.apache.commons.math4.genetics.GeneticAlgorithm.getRandomGenerator()\E$
+    ^\Qorg.apache.commons.math4.util.FastMath.random()\E$
+    ^\Qjava.util.Date.<init>()\E$
+    ^\Qorg.joda.time.DateTime.now()\E$
+    ^\Qorg.joda.time.LocalDate.<init>\E$
+    ^\Qnew org.joda.time.Partial.<init>()\E$
+    ^\Qjava.io.File.list()\E$
+    ^\Qjava.io.File.list(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listFiles()\E$
+    ^\Qjava.io.File.listFiles(java.io.FileFilter)\E$
+    ^\Qjava.io.File.listFiles(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listRoots()\E$
+    ^\Qjava.lang.Class.getSigners()\E$
+    ^\Qjava.lang.Object.hashCode()\E$
+    ^\Qjava.lang.String.hashCode()\E$
+    ^\Qjava.lang.System.clearProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.console()\E$
+    ^\Qjava.lang.System.currentTimeMillis()\E$
+    ^\Qjava.lang.System.getProperties()\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.System.getSecurityManager()\E$
+    ^\Qjava.lang.System.getenv()\E$
+    ^\Qjava.lang.System.getenv(java.lang.String)\E$
+    ^\Qjava.lang.System.identityHashCode(java.lang.Object)\E$
+    ^\Qjava.lang.System.inheritedChannel()\E$
+    ^\Qjava.lang.System.mapLibraryName(java.lang.String)\E$
+    ^\Qjava.lang.System.nanoTime()\E$
+    ^\Qjava.lang.System.setProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.reflect.Method.hashCode()\E$
+    ^\Qjava.text.BreakIterator.getAvailableLocales()\E$
+    ^\Qjava.util.AbstractList.hashCode()\E$
+    ^\Qjava.util.AbstractSet.hashCode()\E$
+    ^\Qjava.util.Arrays.deepHashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(boolean[])\E$
+    ^\Qjava.util.Arrays.hashCode(byte[])\E$
+    ^\Qjava.util.Arrays.hashCode(char[])\E$
+    ^\Qjava.util.Arrays.hashCode(double[])\E$
+    ^\Qjava.util.Arrays.hashCode(float[])\E$
+    ^\Qjava.util.Arrays.hashCode(int[])\E$
+    ^\Qjava.util.Arrays.hashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(long[])\E$
+    ^\Qjava.util.Arrays.hashCode(short[])\E$
+    ^\Qjava.util.Collection.hashCode()\E$
+    ^\Qjava.util.Collections.shuffle(java.util.List)\E$
+    ^\Qjava.util.Comparator.compare(java.lang.Object, java.lang.Object)\E$
+    ^\Qjava.util.List.hashCode()\E$
+    ^\Qjava.util.Random.<init>()\E$
+    ^\Qjava.util.Set.hashCode()\E$
+  ]
+Operations: (1)
+  java.lang.Object.<init> : () -> java.lang.Object
+
+There are no methods for Randoop to test.  See diagnostics above.  Exiting.
+* Analyzing classpath: 
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=9
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=0, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:16.609030Z     30.1M used)* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+
+Progress update: steps=8, test inputs generated=2, failing inputs=0      (2024-07-12T09:46:17.633342Z     50.2M used)
+Normal method executions: 4
+Exceptional method executions: 1
+
+Average method execution time (normal termination):      0.00799
+Average method execution time (exceptional termination): 0.0679
+Approximate memory usage 50.2M
+Explorer = ForwardGenerator(steps: 8, null steps: 6, num_sequences_generated: 2;
+    allSequences: 2, regresson seqs: 1, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 1;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 1 regression sequences.
+
+Regression test output:
+Regression test count: 1
+Writing regression JUnit tests...
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:46:19.724 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=6
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=0, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:20.260238Z     27.1M used)[MASTER] 12:46:20.375 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:46:21.544 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Finished analyzing classpath
+* Generating tests for class Game.Ghost
+* Test criterion:
+  - Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 3
+* Using seed 1720777575236
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 3 / 3
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=389
+[Progress:==============================100%] [Cov:===========>                       33%][Progress:==============================100%] [Cov:===========>                       33%]
+* Search finished after 2s and 1 generations, 250 statements, best individual has fitness: 2.0
+[MASTER] 12:46:25.667 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 33%
+* Total number of goals: 3
+* Number of covered goals: 1
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 33%
+* Compiling and checking tests
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=3
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=0, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:26.719992Z     30.6M used)Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Writing tests to file
+* Writing JUnit test case 'Ghost_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.GameElementPanel
+* Going to generate test cases for class: Game.GameElementPanel
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=336
+* Starting Client-0
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+* Connecting to master process on port 20708
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:29.987573Z     51.3M used)* Analyzing classpath: 
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+PUBLIC MEMBERS=334
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:32.816238Z     43.5M used)[MASTER] 12:46:34.122 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:46:34.483 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=7
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:34.915165Z     18.6M used)
+Progress update: steps=16, test inputs generated=3, failing inputs=0      (2024-07-12T09:46:36.138958Z     32.9M used)
+Normal method executions: 16
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      9.67
+Average method execution time (exceptional termination): NaN
+Approximate memory usage 32.9M
+Explorer = ForwardGenerator(steps: 16, null steps: 13, num_sequences_generated: 3;
+    allSequences: 3, regresson seqs: 2, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 1;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 2 regression sequences.
+
+Regression test output:
+Regression test count: 2
+Writing regression JUnit tests...
+[MASTER] 12:46:36.695 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=5
+* Finished analyzing classpath
+* Generating tests for class Game.GameElementPanel
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 14
+* Using seed 1720777590013
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 6 / 14
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:38.153927Z     29.1M used)
+Progress update: steps=1, test inputs generated=1, failing inputs=0      (2024-07-12T09:46:39.174452Z     23.9M used)
+Normal method executions: 4
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      0.0116
+Average method execution time (exceptional termination): NaN
+Approximate memory usage 23.9M
+Explorer = ForwardGenerator(steps: 1, null steps: 0, num_sequences_generated: 1;
+    allSequences: 1, regresson seqs: 1, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 1 regression sequences.
+
+Regression test output:
+Regression test count: 1
+Writing regression JUnit tests...
+[Progress:==============================100%] [Cov:============>                      35%][Progress:==============================100%] [Cov:==============>                    42%]
+* Search finished after 3s and 1 generations, 480 statements, best individual has fitness: 8.0
+[MASTER] 12:46:40.224 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 14
+* Number of covered goals: 6
+* Generated 5 tests with total length 6
+* Resulting test suite's coverage: 43%
+* Compiling and checking tests
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=334
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:41.929936Z     32.6M used)Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+* Writing tests to file
+* Writing JUnit test case 'GameElementPanel_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+PUBLIC MEMBERS=337
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+* Current class: Game.StatsPanel
+* Going to generate test cases for class: Game.StatsPanel
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:44.499468Z     60.6M used)* Starting Client-0
+* Connecting to master process on port 10030
+* Analyzing classpath: 
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=5
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:46.606388Z     33.9M used)* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+
+Progress update: steps=6, test inputs generated=4, failing inputs=0      (2024-07-12T09:46:47.662681Z     48.6M used)
+Normal method executions: 9
+Exceptional method executions: 2
+
+Average method execution time (normal termination):      0.00720
+Average method execution time (exceptional termination): 49.0
+Approximate memory usage 48.6M
+Explorer = ForwardGenerator(steps: 6, null steps: 2, num_sequences_generated: 4;
+    allSequences: 4, regresson seqs: 3, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 1;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 2 regression sequences.
+
+Regression test output:
+Regression test count: 2
+Writing regression JUnit tests...
+[MASTER] 12:46:48.312 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:46:48.798 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:46:50.704 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+
+Will try to generate tests for 1 classes.
+* Finished analyzing classpath
+* Generating tests for class Game.StatsPanel
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 3
+* Using seed 1720777605116
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 3 / 3
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=6
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:52.926870Z     46.5M used)[MASTER] 12:46:53.148 [logback-1] WARN  TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+[MASTER] 12:46:53.185 [logback-1] WARN  TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[Progress:==============================100%] [Cov:===================================100%]
+* Search finished after 2s and 0 generations, 330 statements, best individual has fitness: 0.0
+[MASTER] 12:46:53.454 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 0 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Generated 1 tests with total length 3
+* Resulting test suite's coverage: 100%
+* Compiling and checking tests
+
+Progress update: steps=2, test inputs generated=2, failing inputs=0      (2024-07-12T09:46:53.967732Z     41.0M used)
+Normal method executions: 8
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      0.00419
+Average method execution time (exceptional termination): NaN
+Approximate memory usage 41.0M
+Explorer = ForwardGenerator(steps: 2, null steps: 0, num_sequences_generated: 2;
+    allSequences: 2, regresson seqs: 2, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+About to look for failing assertions in 2 regression sequences.
+
+Regression test output:
+Regression test count: 2
+Writing regression JUnit tests...
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Writing tests to file
+* Writing JUnit test case 'StatsPanel_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Score
+* Going to generate test cases for class: Game.Score
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=490
+* Starting Client-0
+* Connecting to master process on port 12047
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=0, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:56.401141Z     42.3M used)* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Finished analyzing classpath
+* Generating tests for class Game.Score
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 3
+* Using seed 1720777616422
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 3 / 3
+
+Will try to generate tests for 1 classes.
+[Progress:>                             0%] [Cov:===================================100%]
+* Search finished after 1s and 0 generations, 974 statements, best individual has fitness: 0.0
+PUBLIC MEMBERS=330
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Generated 2 tests with total length 4
+* Resulting test suite's coverage: 100%
+* Compiling and checking tests
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:46:59.240608Z     52.4M used)
+Progress update: steps=60, test inputs generated=3, failing inputs=0      (2024-07-12T09:47:00.260028Z     66.4M used)
+Normal method executions: 0
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      NaN
+Average method execution time (exceptional termination): NaN
+Approximate memory usage 66.4M
+Explorer = ForwardGenerator(steps: 60, null steps: 57, num_sequences_generated: 3;
+    allSequences: 3, regresson seqs: 3, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:39)
+
+About to look for failing assertions in 3 regression sequences.
+
+Regression test output:
+Regression test count: 3
+Writing regression JUnit tests...
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Writing tests to file
+* Writing JUnit test case 'Score_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.GamePanel
+* Going to generate test cases for class: Game.GamePanel
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=335
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:02.441396Z     44.6M used)* Starting Client-0
+* Connecting to master process on port 21667
+* Analyzing classpath: 
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=339
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:05.808158Z     49.9M used)[MASTER] 12:47:06.489 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:47:06.786 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=339
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:08.303452Z     29.2M used)[MASTER] 12:47:08.756 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+
+Progress update: steps=33, test inputs generated=3, failing inputs=0      (2024-07-12T09:47:09.377897Z     76.1M used)
+Normal method executions: 0
+Exceptional method executions: 1
+
+Average method execution time (normal termination):      NaN
+Average method execution time (exceptional termination): 0.0803
+Approximate memory usage 76.1M
+Explorer = ForwardGenerator(steps: 33, null steps: 30, num_sequences_generated: 3;
+    allSequences: 3, regresson seqs: 3, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:40)
+
+About to look for failing assertions in 3 regression sequences.
+
+Regression test output:
+Regression test count: 3
+Writing regression JUnit tests...
+* Finished analyzing classpath
+* Generating tests for class Game.GamePanel
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 323
+* Using seed 1720777622552
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 89 / 323
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[Progress:>                             0%] [Cov:>                                  0%]Cannot instantiate non-accessible class Game.GameOver$ScoreTablePanel specified via --testclass or --classlist.
+
+Will try to generate tests for 0 out of 1 classes.
+You provided no methods to test, so no tests for them can be generated.
+
+Additional diagnostis appear below.
+Model with hashcode 1688277354:
+  classTypes = [java.lang.Object]
+  inputTypes = []
+  coveredClassesGoal = []
+  classLiteralMap = {}
+  annotatedTestValues = []
+  contracts = ContractSet[size=12]
+    arity 1: [randoop.contract.EqualsReflexive@11e17893, randoop.contract.EqualsToNullRetFalse@19eea77c, randoop.contract.EqualsReturnsNormally@6682e6a5, randoop.contract.CompareToReflexive@ac4915e, randoop.contract.SizeToArrayLength@10fb4575]
+    arity 2: [randoop.contract.EqualsSymmetric@7cc2c551, randoop.contract.EqualsHashcode@d84b3a2, randoop.contract.CompareToAntiSymmetric@23648d2d, randoop.contract.CompareToEquals@69feb4d9]
+    arity 3: [randoop.contract.EqualsTransitive@37c1cfa, randoop.contract.CompareToSubs@2bcda694, randoop.contract.CompareToTransitive@2cc75b25]
+  omitMethods = [
+    java\.awt\.Component\.requestFocus\(\)
+    java\.awt\.Component\.requestFocus\(boolean\)
+    java\.awt\.Component\.setVisible\(boolean\)
+    java\.awt\.Component\.show\(\)
+    java\.awt\.Component\.show\(boolean\)
+    java\.awt\.Dialog\.pack\(\)
+    java\.awt\.Dialog\.requestFocus\(\)
+    java\.awt\.Dialog\.setVisible\(boolean\)
+    java\.awt\.Dialog\.show\(\)
+    java\.awt\.Dialog\.show\(boolean\)
+    java\.awt\.Dialog\.toFront\(\)
+    java\.awt\.Frame\.pack\(\)
+    java\.awt\.Frame\.requestFocus\(\)
+    java\.awt\.Frame\.setVisible\(boolean\)
+    java\.awt\.Frame\.show\(\)
+    java\.awt\.Frame\.show\(boolean\)
+    java\.awt\.Frame\.toFront\(\)
+    java\.awt\.GraphicsEnvironment\.checkHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadlessInstance\(\)
+    java\.awt\.Window\.pack\(\)
+    java\.awt\.Window\.requestFocus\(\)
+    java\.awt\.Window\.setVisible\(boolean\)
+    java\.awt\.Window\.show\(\)
+    java\.awt\.Window\.show\(boolean\)
+    java\.awt\.Window\.toFront\(\)
+    java\.lang\.System\.exit\(int\)
+    java\.util\.Random\.<init>\(\)
+    javax\.swing\.JComponent\.requestFocus\(\)
+    javax\.swing\.JComponent\.requestFocus\(boolean\)
+    javax\.swing\.JComponent\.setVisible\(boolean\)
+    javax\.swing\.JComponent\.show\(\)
+    javax\.swing\.JComponent\.show\(boolean\)
+    javax\.swing\.JDialog\.pack\(\)
+    javax\.swing\.JDialog\.requestFocus\(\)
+    javax\.swing\.JDialog\.setVisible\(boolean\)
+    javax\.swing\.JDialog\.show\(\)
+    javax\.swing\.JDialog\.show\(boolean\)
+    javax\.swing\.JDialog\.toFront\(\)
+    javax\.swing\.JFrame\.pack\(\)
+    javax\.swing\.JFrame\.requestFocus\(\)
+    javax\.swing\.JFrame\.setVisible\(boolean\)
+    javax\.swing\.JFrame\.show\(\)
+    javax\.swing\.JFrame\.show\(boolean\)
+    javax\.swing\.JFrame\.toFront\(\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JWindow\.pack\(\)
+    javax\.swing\.JWindow\.requestFocus\(\)
+    javax\.swing\.JWindow\.setVisible\(boolean\)
+    javax\.swing\.JWindow\.show\(\)
+    javax\.swing\.JWindow\.show\(boolean\)
+    javax\.swing\.JWindow\.toFront\(\)
+    \bensuresCapacity\b
+    ^\Qcom.google.common.collect.Iterators.cycle(
+    ^\Qorg.apache.commons.math4.genetics.GeneticAlgorithm.getRandomGenerator()\E$
+    ^\Qorg.apache.commons.math4.util.FastMath.random()\E$
+    ^\Qjava.util.Date.<init>()\E$
+    ^\Qorg.joda.time.DateTime.now()\E$
+    ^\Qorg.joda.time.LocalDate.<init>\E$
+    ^\Qnew org.joda.time.Partial.<init>()\E$
+    ^\Qjava.io.File.list()\E$
+    ^\Qjava.io.File.list(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listFiles()\E$
+    ^\Qjava.io.File.listFiles(java.io.FileFilter)\E$
+    ^\Qjava.io.File.listFiles(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listRoots()\E$
+    ^\Qjava.lang.Class.getSigners()\E$
+    ^\Qjava.lang.Object.hashCode()\E$
+    ^\Qjava.lang.String.hashCode()\E$
+    ^\Qjava.lang.System.clearProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.console()\E$
+    ^\Qjava.lang.System.currentTimeMillis()\E$
+    ^\Qjava.lang.System.getProperties()\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.System.getSecurityManager()\E$
+    ^\Qjava.lang.System.getenv()\E$
+    ^\Qjava.lang.System.getenv(java.lang.String)\E$
+    ^\Qjava.lang.System.identityHashCode(java.lang.Object)\E$
+    ^\Qjava.lang.System.inheritedChannel()\E$
+    ^\Qjava.lang.System.mapLibraryName(java.lang.String)\E$
+    ^\Qjava.lang.System.nanoTime()\E$
+    ^\Qjava.lang.System.setProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.reflect.Method.hashCode()\E$
+    ^\Qjava.text.BreakIterator.getAvailableLocales()\E$
+    ^\Qjava.util.AbstractList.hashCode()\E$
+    ^\Qjava.util.AbstractSet.hashCode()\E$
+    ^\Qjava.util.Arrays.deepHashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(boolean[])\E$
+    ^\Qjava.util.Arrays.hashCode(byte[])\E$
+    ^\Qjava.util.Arrays.hashCode(char[])\E$
+    ^\Qjava.util.Arrays.hashCode(double[])\E$
+    ^\Qjava.util.Arrays.hashCode(float[])\E$
+    ^\Qjava.util.Arrays.hashCode(int[])\E$
+    ^\Qjava.util.Arrays.hashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(long[])\E$
+    ^\Qjava.util.Arrays.hashCode(short[])\E$
+    ^\Qjava.util.Collection.hashCode()\E$
+    ^\Qjava.util.Collections.shuffle(java.util.List)\E$
+    ^\Qjava.util.Comparator.compare(java.lang.Object, java.lang.Object)\E$
+    ^\Qjava.util.List.hashCode()\E$
+    ^\Qjava.util.Random.<init>()\E$
+    ^\Qjava.util.Set.hashCode()\E$
+  ]
+Operations: (1)
+  java.lang.Object.<init> : () -> java.lang.Object
+
+There are no methods for Randoop to test.  See diagnostics above.  Exiting.
+[Progress:==============================100%] [Cov:>                                  0%][Progress:==============================100%] [Cov:>                                  0%]
+* Search finished after 2s and 2 generations, 165 statements, best individual has fitness: 321.0
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:47:11.776 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 1%
+* Total number of goals: 323
+* Number of covered goals: 2
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 1%
+* Compiling and checking tests
+Cannot instantiate non-accessible class Game.QueuePanel specified via --testclass or --classlist.
+
+Will try to generate tests for 0 out of 1 classes.
+You provided no methods to test, so no tests for them can be generated.
+
+Additional diagnostis appear below.
+Model with hashcode 671078904:
+  classTypes = [java.lang.Object]
+  inputTypes = []
+  coveredClassesGoal = []
+  classLiteralMap = {}
+  annotatedTestValues = []
+  contracts = ContractSet[size=12]
+    arity 1: [randoop.contract.EqualsReflexive@642c6461, randoop.contract.EqualsToNullRetFalse@3ace6346, randoop.contract.EqualsReturnsNormally@4e48462d, randoop.contract.CompareToReflexive@17216605, randoop.contract.SizeToArrayLength@10a907ec]
+    arity 2: [randoop.contract.EqualsSymmetric@59b492ec, randoop.contract.EqualsHashcode@55c1ced9, randoop.contract.CompareToAntiSymmetric@49cc9b2a, randoop.contract.CompareToEquals@11826398]
+    arity 3: [randoop.contract.EqualsTransitive@6c5ca0b6, randoop.contract.CompareToSubs@37b01ce2, randoop.contract.CompareToTransitive@1a88c4f5]
+  omitMethods = [
+    java\.awt\.Component\.requestFocus\(\)
+    java\.awt\.Component\.requestFocus\(boolean\)
+    java\.awt\.Component\.setVisible\(boolean\)
+    java\.awt\.Component\.show\(\)
+    java\.awt\.Component\.show\(boolean\)
+    java\.awt\.Dialog\.pack\(\)
+    java\.awt\.Dialog\.requestFocus\(\)
+    java\.awt\.Dialog\.setVisible\(boolean\)
+    java\.awt\.Dialog\.show\(\)
+    java\.awt\.Dialog\.show\(boolean\)
+    java\.awt\.Dialog\.toFront\(\)
+    java\.awt\.Frame\.pack\(\)
+    java\.awt\.Frame\.requestFocus\(\)
+    java\.awt\.Frame\.setVisible\(boolean\)
+    java\.awt\.Frame\.show\(\)
+    java\.awt\.Frame\.show\(boolean\)
+    java\.awt\.Frame\.toFront\(\)
+    java\.awt\.GraphicsEnvironment\.checkHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadlessInstance\(\)
+    java\.awt\.Window\.pack\(\)
+    java\.awt\.Window\.requestFocus\(\)
+    java\.awt\.Window\.setVisible\(boolean\)
+    java\.awt\.Window\.show\(\)
+    java\.awt\.Window\.show\(boolean\)
+    java\.awt\.Window\.toFront\(\)
+    java\.lang\.System\.exit\(int\)
+    java\.util\.Random\.<init>\(\)
+    javax\.swing\.JComponent\.requestFocus\(\)
+    javax\.swing\.JComponent\.requestFocus\(boolean\)
+    javax\.swing\.JComponent\.setVisible\(boolean\)
+    javax\.swing\.JComponent\.show\(\)
+    javax\.swing\.JComponent\.show\(boolean\)
+    javax\.swing\.JDialog\.pack\(\)
+    javax\.swing\.JDialog\.requestFocus\(\)
+    javax\.swing\.JDialog\.setVisible\(boolean\)
+    javax\.swing\.JDialog\.show\(\)
+    javax\.swing\.JDialog\.show\(boolean\)
+    javax\.swing\.JDialog\.toFront\(\)
+    javax\.swing\.JFrame\.pack\(\)
+    javax\.swing\.JFrame\.requestFocus\(\)
+    javax\.swing\.JFrame\.setVisible\(boolean\)
+    javax\.swing\.JFrame\.show\(\)
+    javax\.swing\.JFrame\.show\(boolean\)
+    javax\.swing\.JFrame\.toFront\(\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JWindow\.pack\(\)
+    javax\.swing\.JWindow\.requestFocus\(\)
+    javax\.swing\.JWindow\.setVisible\(boolean\)
+    javax\.swing\.JWindow\.show\(\)
+    javax\.swing\.JWindow\.show\(boolean\)
+    javax\.swing\.JWindow\.toFront\(\)
+    \bensuresCapacity\b
+    ^\Qcom.google.common.collect.Iterators.cycle(
+    ^\Qorg.apache.commons.math4.genetics.GeneticAlgorithm.getRandomGenerator()\E$
+    ^\Qorg.apache.commons.math4.util.FastMath.random()\E$
+    ^\Qjava.util.Date.<init>()\E$
+    ^\Qorg.joda.time.DateTime.now()\E$
+    ^\Qorg.joda.time.LocalDate.<init>\E$
+    ^\Qnew org.joda.time.Partial.<init>()\E$
+    ^\Qjava.io.File.list()\E$
+    ^\Qjava.io.File.list(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listFiles()\E$
+    ^\Qjava.io.File.listFiles(java.io.FileFilter)\E$
+    ^\Qjava.io.File.listFiles(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listRoots()\E$
+    ^\Qjava.lang.Class.getSigners()\E$
+    ^\Qjava.lang.Object.hashCode()\E$
+    ^\Qjava.lang.String.hashCode()\E$
+    ^\Qjava.lang.System.clearProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.console()\E$
+    ^\Qjava.lang.System.currentTimeMillis()\E$
+    ^\Qjava.lang.System.getProperties()\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.System.getSecurityManager()\E$
+    ^\Qjava.lang.System.getenv()\E$
+    ^\Qjava.lang.System.getenv(java.lang.String)\E$
+    ^\Qjava.lang.System.identityHashCode(java.lang.Object)\E$
+    ^\Qjava.lang.System.inheritedChannel()\E$
+    ^\Qjava.lang.System.mapLibraryName(java.lang.String)\E$
+    ^\Qjava.lang.System.nanoTime()\E$
+    ^\Qjava.lang.System.setProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.reflect.Method.hashCode()\E$
+    ^\Qjava.text.BreakIterator.getAvailableLocales()\E$
+    ^\Qjava.util.AbstractList.hashCode()\E$
+    ^\Qjava.util.AbstractSet.hashCode()\E$
+    ^\Qjava.util.Arrays.deepHashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(boolean[])\E$
+    ^\Qjava.util.Arrays.hashCode(byte[])\E$
+    ^\Qjava.util.Arrays.hashCode(char[])\E$
+    ^\Qjava.util.Arrays.hashCode(double[])\E$
+    ^\Qjava.util.Arrays.hashCode(float[])\E$
+    ^\Qjava.util.Arrays.hashCode(int[])\E$
+    ^\Qjava.util.Arrays.hashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(long[])\E$
+    ^\Qjava.util.Arrays.hashCode(short[])\E$
+    ^\Qjava.util.Collection.hashCode()\E$
+    ^\Qjava.util.Collections.shuffle(java.util.List)\E$
+    ^\Qjava.util.Comparator.compare(java.lang.Object, java.lang.Object)\E$
+    ^\Qjava.util.List.hashCode()\E$
+    ^\Qjava.util.Random.<init>()\E$
+    ^\Qjava.util.Set.hashCode()\E$
+  ]
+Operations: (1)
+  java.lang.Object.<init> : () -> java.lang.Object
+
+There are no methods for Randoop to test.  See diagnostics above.  Exiting.
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+Cannot instantiate non-accessible class Game.GamePanel$MatrixPanel specified via --testclass or --classlist.
+
+Will try to generate tests for 0 out of 1 classes.
+You provided no methods to test, so no tests for them can be generated.
+
+Additional diagnostis appear below.
+Model with hashcode 702340380:
+  classTypes = [java.lang.Object]
+  inputTypes = []
+  coveredClassesGoal = []
+  classLiteralMap = {}
+  annotatedTestValues = []
+  contracts = ContractSet[size=12]
+    arity 1: [randoop.contract.EqualsReflexive@7cdb7fc, randoop.contract.EqualsToNullRetFalse@524f5ea5, randoop.contract.EqualsReturnsNormally@586843bc, randoop.contract.CompareToReflexive@17134190, randoop.contract.SizeToArrayLength@7d8b66d9]
+    arity 2: [randoop.contract.EqualsSymmetric@5599b5bb, randoop.contract.EqualsHashcode@4ff66917, randoop.contract.CompareToAntiSymmetric@4264beb8, randoop.contract.CompareToEquals@647fb583]
+    arity 3: [randoop.contract.EqualsTransitive@7cd3e0da, randoop.contract.CompareToSubs@919086, randoop.contract.CompareToTransitive@67e77f52]
+  omitMethods = [
+    java\.awt\.Component\.requestFocus\(\)
+    java\.awt\.Component\.requestFocus\(boolean\)
+    java\.awt\.Component\.setVisible\(boolean\)
+    java\.awt\.Component\.show\(\)
+    java\.awt\.Component\.show\(boolean\)
+    java\.awt\.Dialog\.pack\(\)
+    java\.awt\.Dialog\.requestFocus\(\)
+    java\.awt\.Dialog\.setVisible\(boolean\)
+    java\.awt\.Dialog\.show\(\)
+    java\.awt\.Dialog\.show\(boolean\)
+    java\.awt\.Dialog\.toFront\(\)
+    java\.awt\.Frame\.pack\(\)
+    java\.awt\.Frame\.requestFocus\(\)
+    java\.awt\.Frame\.setVisible\(boolean\)
+    java\.awt\.Frame\.show\(\)
+    java\.awt\.Frame\.show\(boolean\)
+    java\.awt\.Frame\.toFront\(\)
+    java\.awt\.GraphicsEnvironment\.checkHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadless\(\)
+    java\.awt\.GraphicsEnvironment\.isHeadlessInstance\(\)
+    java\.awt\.Window\.pack\(\)
+    java\.awt\.Window\.requestFocus\(\)
+    java\.awt\.Window\.setVisible\(boolean\)
+    java\.awt\.Window\.show\(\)
+    java\.awt\.Window\.show\(boolean\)
+    java\.awt\.Window\.toFront\(\)
+    java\.lang\.System\.exit\(int\)
+    java\.util\.Random\.<init>\(\)
+    javax\.swing\.JComponent\.requestFocus\(\)
+    javax\.swing\.JComponent\.requestFocus\(boolean\)
+    javax\.swing\.JComponent\.setVisible\(boolean\)
+    javax\.swing\.JComponent\.show\(\)
+    javax\.swing\.JComponent\.show\(boolean\)
+    javax\.swing\.JDialog\.pack\(\)
+    javax\.swing\.JDialog\.requestFocus\(\)
+    javax\.swing\.JDialog\.setVisible\(boolean\)
+    javax\.swing\.JDialog\.show\(\)
+    javax\.swing\.JDialog\.show\(boolean\)
+    javax\.swing\.JDialog\.toFront\(\)
+    javax\.swing\.JFrame\.pack\(\)
+    javax\.swing\.JFrame\.requestFocus\(\)
+    javax\.swing\.JFrame\.setVisible\(boolean\)
+    javax\.swing\.JFrame\.show\(\)
+    javax\.swing\.JFrame\.show\(boolean\)
+    javax\.swing\.JFrame\.toFront\(\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInputDialog\(java\.lang\.Object,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int\)
+    javax\.swing\.JOptionPane\.showInternalConfirmDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalInputDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showInternalMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showInternalOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int\)
+    javax\.swing\.JOptionPane\.showMessageDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,javax\.swing\.Icon\)
+    javax\.swing\.JOptionPane\.showOptionDialog\(java\.awt\.Component,java\.lang\.Object,java\.lang\.String,int,int,javax\.swing\.Icon,java\.lang\.Object\[\],java\.lang\.Object\)
+    javax\.swing\.JWindow\.pack\(\)
+    javax\.swing\.JWindow\.requestFocus\(\)
+    javax\.swing\.JWindow\.setVisible\(boolean\)
+    javax\.swing\.JWindow\.show\(\)
+    javax\.swing\.JWindow\.show\(boolean\)
+    javax\.swing\.JWindow\.toFront\(\)
+    \bensuresCapacity\b
+    ^\Qcom.google.common.collect.Iterators.cycle(
+    ^\Qorg.apache.commons.math4.genetics.GeneticAlgorithm.getRandomGenerator()\E$
+    ^\Qorg.apache.commons.math4.util.FastMath.random()\E$
+    ^\Qjava.util.Date.<init>()\E$
+    ^\Qorg.joda.time.DateTime.now()\E$
+    ^\Qorg.joda.time.LocalDate.<init>\E$
+    ^\Qnew org.joda.time.Partial.<init>()\E$
+    ^\Qjava.io.File.list()\E$
+    ^\Qjava.io.File.list(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listFiles()\E$
+    ^\Qjava.io.File.listFiles(java.io.FileFilter)\E$
+    ^\Qjava.io.File.listFiles(java.io.FilenameFilter)\E$
+    ^\Qjava.io.File.listRoots()\E$
+    ^\Qjava.lang.Class.getSigners()\E$
+    ^\Qjava.lang.Object.hashCode()\E$
+    ^\Qjava.lang.String.hashCode()\E$
+    ^\Qjava.lang.System.clearProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.console()\E$
+    ^\Qjava.lang.System.currentTimeMillis()\E$
+    ^\Qjava.lang.System.getProperties()\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String)\E$
+    ^\Qjava.lang.System.getProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.System.getSecurityManager()\E$
+    ^\Qjava.lang.System.getenv()\E$
+    ^\Qjava.lang.System.getenv(java.lang.String)\E$
+    ^\Qjava.lang.System.identityHashCode(java.lang.Object)\E$
+    ^\Qjava.lang.System.inheritedChannel()\E$
+    ^\Qjava.lang.System.mapLibraryName(java.lang.String)\E$
+    ^\Qjava.lang.System.nanoTime()\E$
+    ^\Qjava.lang.System.setProperty(java.lang.String, java.lang.String)\E$
+    ^\Qjava.lang.reflect.Method.hashCode()\E$
+    ^\Qjava.text.BreakIterator.getAvailableLocales()\E$
+    ^\Qjava.util.AbstractList.hashCode()\E$
+    ^\Qjava.util.AbstractSet.hashCode()\E$
+    ^\Qjava.util.Arrays.deepHashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(boolean[])\E$
+    ^\Qjava.util.Arrays.hashCode(byte[])\E$
+    ^\Qjava.util.Arrays.hashCode(char[])\E$
+    ^\Qjava.util.Arrays.hashCode(double[])\E$
+    ^\Qjava.util.Arrays.hashCode(float[])\E$
+    ^\Qjava.util.Arrays.hashCode(int[])\E$
+    ^\Qjava.util.Arrays.hashCode(java.lang.Object[])\E$
+    ^\Qjava.util.Arrays.hashCode(long[])\E$
+    ^\Qjava.util.Arrays.hashCode(short[])\E$
+    ^\Qjava.util.Collection.hashCode()\E$
+    ^\Qjava.util.Collections.shuffle(java.util.List)\E$
+    ^\Qjava.util.Comparator.compare(java.lang.Object, java.lang.Object)\E$
+    ^\Qjava.util.List.hashCode()\E$
+    ^\Qjava.util.Random.<init>()\E$
+    ^\Qjava.util.Set.hashCode()\E$
+  ]
+Operations: (1)
+  java.lang.Object.<init> : () -> java.lang.Object
+
+There are no methods for Randoop to test.  See diagnostics above.  Exiting.
+* Writing tests to file
+* Writing JUnit test case 'GamePanel_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.About
+* Going to generate test cases for class: Game.About
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=9
+* Starting Client-0
+* Connecting to master process on port 16666
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:15.953942Z     33.3M used)* Analyzing classpath: 
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=345
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:19.892902Z     69.7M used)[MASTER] 12:47:20.983 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:47:21.496 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+
+Will try to generate tests for 1 classes.
+PUBLIC MEMBERS=342
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=0, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:22.524868Z     74.5M used)Randoop for Java version "4.3.0, local changes, branch HEAD, commit b069486, 2022-01-31".
+[MASTER] 12:47:23.999 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+
+Will try to generate tests for 1 classes.
+* Finished analyzing classpath
+* Generating tests for class Game.About
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 20
+* Using seed 1720777635867
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 12 / 20
+PUBLIC MEMBERS=342
+Explorer = ForwardGenerator(steps: 0, null steps: 0, num_sequences_generated: 0;
+    allSequences: 0, regresson seqs: 0, error seqs: 0=0=0, invalid seqs: 0, subsumed_sequences: 0, num_failed_output_test: 0;
+    runtimePrimitivesSeen:38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (2024-07-12T09:47:25.484255Z     29.1M used)[Progress:==============================100%] [Cov:=======>                           20%][Progress:==============================100%] [Cov:=======>                           20%]
+* Search finished after 2s and 1 generations, 557 statements, best individual has fitness: 16.0
+[MASTER] 12:47:27.306 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 20
+* Number of covered goals: 4
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 20%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'About_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.MinoQueue
+* Going to generate test cases for class: Game.MinoQueue
+* Starting Client-0
+* Connecting to master process on port 18732
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:47:31.907 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:47:32.357 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:47:33.000 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.MinoQueue
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 6
+* Using seed 1720777649120
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 6 / 6
+[Progress:==============================100%] [Cov:===================================100%]
+* Search finished after 2s and 0 generations, 458 statements, best individual has fitness: 0.0
+[MASTER] 12:47:35.075 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 0 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Generated 4 tests with total length 8
+* Resulting test suite's coverage: 100%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'MinoQueue_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Option
+* Going to generate test cases for class: Game.Option
+* Starting Client-0
+* Connecting to master process on port 10005
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:47:39.602 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:47:40.298 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:47:40.974 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.Option
+* Test criterion:
+  - Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 42
+* Using seed 1720777657503
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 26 / 42
+[Progress:==============================100%] [Cov:=============>                     38%][Progress:==============================100%] [Cov:=============>                     38%][Progress:==============================100%] [Cov:=============>                     38%]
+* Search finished after 2s and 2 generations, 1450 statements, best individual has fitness: 26.0
+[MASTER] 12:47:43.617 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 38%
+* Total number of goals: 42
+* Number of covered goals: 16
+* Generated 6 tests with total length 15
+* Resulting test suite's coverage: 38%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing tests to file
+* Writing JUnit test case 'Option_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.MatrixElement
+* Going to generate test cases for class: Game.MatrixElement
+* Starting Client-0
+* Connecting to master process on port 10995
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:47:51.078 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:47:51.591 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:47:52.072 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.MatrixElement
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 3
+* Using seed 1720777667839
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 3 / 3
+[Progress:>                             0%] [Cov:===================================100%]
+* Search finished after 1s and 0 generations, 372 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Generated 2 tests with total length 6
+* Resulting test suite's coverage: 100%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'MatrixElement_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.WindowLanch
+* Going to generate test cases for class: Game.WindowLanch
+* Starting Client-0
+* Connecting to master process on port 7496
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:47:57.365 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:47:57.642 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:47:59.538 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.WindowLanch
+* Test criterion:
+  - Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 41
+* Using seed 1720777675388
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 31 / 41
+[Progress:==============================100%] [Cov:=====>                             17%][Progress:==============================100%] [Cov:======>                            19%]
+* Search finished after 4s and 0 generations, 120 statements, best individual has fitness: 33.0
+[MASTER] 12:48:04.361 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 3 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 41
+* Number of covered goals: 8
+* Generated 4 tests with total length 7
+* Resulting test suite's coverage: 20%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'WindowLanch_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Mino
+* Going to generate test cases for class: Game.Mino
+* Starting Client-0
+* Connecting to master process on port 13610
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:10.184 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:48:10.441 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:10.795 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.Mino
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 103
+* Using seed 1720777687414
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 75 / 103
+[Progress:>                             0%] [Cov:=============>                     39%][Progress:>                             0%] [Cov:===============>                   44%][Progress:>                             0%] [Cov:===============>                   44%][Progress:>                             0%] [Cov:==================>                52%][Progress:==============================100%] [Cov:=====================>             61%][Progress:==============================100%] [Cov:=======================>           66%][Progress:==============================100%] [Cov:=======================>           68%][Progress:==============================100%] [Cov:===========================>       78%][Progress:==============================100%] [Cov:===========================>       79%][Progress:==============================100%] [Cov:=============================>     85%][MASTER] 12:48:13.103 [logback-1] WARN  TestCluster - Failed to check cache for javax.swing.JComboBox<E> : Type points to itself
+[Progress:==============================100%] [Cov:===============================>   89%][Progress:==============================100%] [Cov:===============================>   90%][Progress:==============================100%] [Cov:===============================>   90%]
+* Search finished after 2s and 12 generations, 4201 statements, best individual has fitness: 10.0
+[MASTER] 12:48:13.600 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 103
+* Number of covered goals: 93
+* Generated 16 tests with total length 42
+* Resulting test suite's coverage: 90%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 3
+* Writing tests to file
+* Writing JUnit test case 'Mino_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.HighScore
+* Going to generate test cases for class: Game.HighScore
+* Starting Client-0
+* Connecting to master process on port 3048
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:19.886 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:48:19.995 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:21.291 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.HighScore
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 34
+* Using seed 1720777697741
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 30 / 34
+[Progress:>                             0%] [Cov:>                                  2%][Progress:>                             0%] [Cov:>                                  2%][Progress:>                             0%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%][Progress:==============================100%] [Cov:>                                  2%]
+* Search finished after 2s and 15 generations, 20 statements, best individual has fitness: 33.0
+[MASTER] 12:48:23.823 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 3%
+* Total number of goals: 34
+* Number of covered goals: 1
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 3%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'HighScore_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Vue
+* Going to generate test cases for class: Game.Vue
+* Starting Client-0
+* Connecting to master process on port 13608
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:27.496 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:48:27.726 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:28.887 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.Vue
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 41
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1720777705524
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 41 / 41
+[Progress:>                             0%] [Cov:==>                                7%][Progress:>                             0%] [Cov:==>                                7%][Progress:>                             0%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:==>                                7%][Progress:==============================100%] [Cov:===>                               9%]
+* Search finished after 2s and 15 generations, 0 statements, best individual has fitness: 37.0
+[MASTER] 12:48:31.491 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 10%
+* Total number of goals: 41
+* Number of covered goals: 4
+* Generated 4 tests with total length 4
+* Resulting test suite's coverage: 10%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Vue_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.HighScoreManager
+* Going to generate test cases for class: Game.HighScoreManager
+* Starting Client-0
+* Connecting to master process on port 12229
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:35.293 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:35.358 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+* Finished analyzing classpath
+* Generating tests for class Game.HighScoreManager
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 28
+* Using seed 1720777713936
+[Progress:>                             0%] [Cov:>                                  0%]* Starting evolution
+* Initial Number of Goals in DynaMOSA = 24 / 28
+[Progress:>                             0%] [Cov:=============>                     39%][Progress:>                             0%] [Cov:================>                  46%][Progress:==============================100%] [Cov:================>                  46%][Progress:==============================100%] [Cov:================>                  46%][Progress:==============================100%] [Cov:==================>                53%][Progress:==============================100%] [Cov:===================>               57%][Progress:==============================100%] [Cov:===================>               57%][Progress:==============================100%] [Cov:=====================>             60%][Progress:==============================100%] [Cov:=====================>             60%][Progress:==============================100%] [Cov:=====================>             60%]
+* Search finished after 2s and 9 generations, 3618 statements, best individual has fitness: 11.0
+[MASTER] 12:48:37.490 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 61%
+* Total number of goals: 28
+* Number of covered goals: 17
+* Generated 10 tests with total length 36
+* Resulting test suite's coverage: 61%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'HighScoreManager_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game._Lancher
+* Going to generate test cases for class: Game._Lancher
+* Starting Client-0
+* Connecting to master process on port 3345
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+* Finished analyzing classpath
+* Generating tests for class Game._Lancher
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 2
+* Using seed 1720777720453
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 2 / 2
+[Progress:>                             0%] [Cov:===================================100%]
+* Search finished after 0s and 0 generations, 579 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Generated 2 tests with total length 3
+* Resulting test suite's coverage: 100%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case '_Lancher_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.QueuePanel
+* Going to generate test cases for class: Game.QueuePanel
+* Starting Client-0
+* Connecting to master process on port 12414
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:45.566 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:48:45.668 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:46.928 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.QueuePanel
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 10
+* Using seed 1720777723790
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 6 / 10
+[Progress:>                             0%] [Cov:===>                               10%][MASTER] 12:48:47.946 [logback-1] WARN  TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[Progress:>                             0%] [Cov:===>                               10%][Progress:>                             0%] [Cov:===>                               10%][Progress:>                             0%] [Cov:===>                               10%][Progress:>                             0%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%][Progress:==============================100%] [Cov:===>                               10%]
+* Search finished after 2s and 14 generations, 32 statements, best individual has fitness: 9.0
+[MASTER] 12:48:49.469 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 10%
+* Total number of goals: 10
+* Number of covered goals: 1
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 10%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'QueuePanel_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Help
+* Going to generate test cases for class: Game.Help
+* Starting Client-0
+* Connecting to master process on port 20439
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:48:53.044 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:48:53.146 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:48:54.464 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.Help
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 72
+* Using seed 1720777731136
+[Progress:>                             0%] [Cov:>                                  0%]* Starting evolution
+* Initial Number of Goals in DynaMOSA = 60 / 72
+[Progress:>                             0%] [Cov:===>                               9%][Progress:==============================100%] [Cov:===>                               9%][Progress:==============================100%] [Cov:===>                               9%][Progress:==============================100%] [Cov:===>                               9%][Progress:==============================100%] [Cov:===>                               9%][Progress:==============================100%] [Cov:===>                               9%]
+* Search finished after 3s and 5 generations, 1618 statements, best individual has fitness: 65.0
+[MASTER] 12:48:57.021 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 10%
+* Total number of goals: 72
+* Number of covered goals: 7
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 10%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Help_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.NavigationBar
+* Going to generate test cases for class: Game.NavigationBar
+* Starting Client-0
+* Connecting to master process on port 3147
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:49:00.469 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:49:00.603 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:49:01.851 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.NavigationBar
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 33
+* Using seed 1720777738532
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 13 / 33
+[MASTER] 12:49:02.637 [logback-1] WARN  CastClassManager - Nothing is assignable after adding java.util.Stack<E> for wildcard ? extends java.util.Vector
+[MASTER] 12:49:02.646 [logback-1] WARN  CastClassManager - Nothing is assignable after adding java.util.Stack<E> for wildcard ? extends java.util.Vector
+[MASTER] 12:49:02.651 [logback-1] WARN  TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[Progress:==============================100%] [Cov:=========>                         27%][Progress:==============================100%] [Cov:============>                      36%][Progress:==============================100%] [Cov:============>                      36%][Progress:==============================100%] [Cov:=============>                     39%][Progress:==============================100%] [Cov:=============>                     39%]
+* Search finished after 2s and 4 generations, 2408 statements, best individual has fitness: 20.0
+[MASTER] 12:49:04.430 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 39%
+* Total number of goals: 33
+* Number of covered goals: 13
+* Generated 3 tests with total length 12
+* Resulting test suite's coverage: 39%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'NavigationBar_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.Timer
+* Going to generate test cases for class: Game.Timer
+* Starting Client-0
+* Connecting to master process on port 2153
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:49:08.541 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:49:08.678 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:49:09.833 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.Timer
+* Test criterion:
+  - Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 14
+* Using seed 1720777746886
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 14 / 14
+[Progress:>                             0%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%]
+* Search finished after 2s and 5 generations, 5386 statements, best individual has fitness: 4.0
+[MASTER] 12:49:12.374 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 14
+* Number of covered goals: 10
+* Generated 3 tests with total length 7
+* Resulting test suite's coverage: 71%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write /tmp/+~JT552252171633589953.tmp: 1
+* Writing tests to file
+* Writing JUnit test case 'Timer_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.GameOver
+* Going to generate test cases for class: Game.GameOver
+* Starting Client-0
+* Connecting to master process on port 13075
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:49:16.151 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:49:16.298 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:49:17.322 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.GameOver
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 16
+* Using seed 1720777754365
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 14 / 16
+[Progress:>                             0%] [Cov:================================>  93%][Progress:==============================100%] [Cov:================================>  93%][MASTER] 12:49:19.401 [logback-1] WARN  TestCluster - Failed to check cache for java.lang.Comparable<T> : Type points to itself
+[Progress:==============================100%] [Cov:================================>  93%][Progress:==============================100%] [Cov:================================>  93%]
+* Search finished after 2s and 3 generations, 2590 statements, best individual has fitness: 1.0
+[MASTER] 12:49:19.890 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 16
+* Number of covered goals: 15
+* Generated 3 tests with total length 6
+* Resulting test suite's coverage: 94%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'GameOver_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished
+* Current class: Game.ChooseLevel
+* Going to generate test cases for class: Game.ChooseLevel
+* Starting Client-0
+* Connecting to master process on port 6251
+* Analyzing classpath: 
+* Inheritance tree loaded from /tmp/ES_inheritancetree709959302313464294.xml.gz
+[MASTER] 12:49:23.662 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.Locale$IsoCountryCode
+[MASTER] 12:49:23.769 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.io.ObjectInputFilter
+[MASTER] 12:49:24.789 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.lang.module.ModuleFinder
+* Finished analyzing classpath
+* Generating tests for class Game.ChooseLevel
+* Test criterion:
+  - Branch Coverage
+* Total number of test goals for DYNAMOSA: 28
+* Using seed 1720777761988
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%]* Initial Number of Goals in DynaMOSA = 28 / 28
+[Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%][Progress:==============================100%] [Cov:========================>          71%]
+* Search finished after 2s and 5 generations, 2266 statements, best individual has fitness: 8.0
+[MASTER] 12:49:27.324 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 1 seconds more than allowed.
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 28
+* Number of covered goals: 20
+* Generated 10 tests with total length 21
+* Resulting test suite's coverage: 71%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'ChooseLevel_ESTest' to /home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris-evosuite-tests
+* Done!
+
+* Computation finished

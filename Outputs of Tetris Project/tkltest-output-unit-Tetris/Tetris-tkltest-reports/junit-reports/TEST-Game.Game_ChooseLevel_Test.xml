@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_ChooseLevel_Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.029">
+  <properties/>
+  <testcase name="test_getPanel_0" classname="Game.Game_ChooseLevel_Test" time="0.018"/>
+  <testcase name="test_setBackImage_0" classname="Game.Game_ChooseLevel_Test" time="0.005"/>
+  <testcase name="test_getImg_0" classname="Game.Game_ChooseLevel_Test" time="0.003"/>
+  <testcase name="test_getImg_1" classname="Game.Game_ChooseLevel_Test" time="0.003"/>
+  <system-out><![CDATA[!! Ereur : image {"img/background0.jpg"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/background0.jpg"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/background0.jpg"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"img/background0.jpg"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/easy.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/medium.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/hard.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/resume.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"img/restart.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

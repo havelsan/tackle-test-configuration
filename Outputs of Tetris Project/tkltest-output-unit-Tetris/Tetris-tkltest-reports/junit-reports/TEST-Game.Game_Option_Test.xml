@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_Option_Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.022">
+  <properties/>
+  <testcase name="test_draw_0" classname="Game.Game_Option_Test" time="0.009"/>
+  <testcase name="test_actionPerformed_0" classname="Game.Game_Option_Test" time="0.004"/>
+  <testcase name="test_getImg_0" classname="Game.Game_Option_Test" time="0.005"/>
+  <testcase name="test_getImg_1" classname="Game.Game_Option_Test" time="0.004"/>
+  <system-out><![CDATA[!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/background.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/sound-off.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/high-scores.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/exit1.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/Icons/refresh.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/music.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/ghostN.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"img/Icons/undecorated0.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

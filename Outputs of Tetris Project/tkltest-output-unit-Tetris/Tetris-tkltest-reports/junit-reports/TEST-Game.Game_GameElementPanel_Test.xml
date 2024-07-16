@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_GameElementPanel_Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.004">
+  <properties/>
+  <testcase name="test_GameElementPanel_0" classname="Game.Game_GameElementPanel_Test" time="0.002"/>
+  <testcase name="test_GameElementPanel_1" classname="Game.Game_GameElementPanel_Test" time="0.001"/>
+  <testcase name="test_GameElementPanel_2" classname="Game.Game_GameElementPanel_Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

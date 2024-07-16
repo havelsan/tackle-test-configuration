@@ -1,0 +1,348 @@
+{
+  "monolithic" : {
+    "Game.Mino" : {
+      "rotate(int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "Game.Mino(Game.Mino,boolean)" : {
+        "test_plan_row_2" : "COVERED",
+        "test_plan_row_1" : "COVERED"
+      },
+      "draw(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.Mino(int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "move(java.awt.Point)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "drawInQueue(java.awt.Graphics,int,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.StatsPanel" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.Ghost" : {
+      "Game.Ghost(Game.Mino)" : {
+        "test_plan_row_2" : "COVERED",
+        "test_plan_row_1" : "COVERED"
+      },
+      "draw(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.GamePanel$KeyHandler" : {
+      "Game.GamePanel$KeyHandler(Game.GamePanel)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "keyReleased(java.awt.event.KeyEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "keyPressed(java.awt.event.KeyEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.GamePanel" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "checkGhostAgainstMatrix(Game.Mino,java.awt.Point)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "componentMoved(java.awt.event.ComponentEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "checkMinoAgainstBorders(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.GamePanel(javax.swing.JFrame)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "checkMoveAgainstMatrix(Game.Mino,java.awt.Point)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "componentResized(java.awt.event.ComponentEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "componentHidden(java.awt.event.ComponentEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "componentShown(java.awt.event.ComponentEvent)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "setTetrisTheme(java.lang.String)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "minoOutOfBounds(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "checkMinoAgainstMatrixAndCorrect(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "checkMinoAgainstMatrix(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "setBackImage(java.awt.Image)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "bottomEmpty(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game._Lancher" : {
+      "main(java.lang.String[])" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.About" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.GameOver" : {
+      "Game.GameOver(int,int,int,int,int,int,int,int,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.MinoQueue" : {
+      "setHeld(Game.Mino)" : {
+        "test_plan_row_2" : "COVERED",
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.Score" : {
+      "Game.Score(java.lang.String,int)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.Timer" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.WindowLanch$Efait" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "action(int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.WindowLanch$Efait(Game.WindowLanch,int,javax.swing.JFrame)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.MatrixElement" : {
+      "Game.MatrixElement(java.awt.Color,java.awt.Point)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "Game.MatrixElement(Game.MatrixElement)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "draw(java.awt.Graphics,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.Vue" : {
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.GamePanel$Status" : {
+      "valueOf(java.lang.String)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.WindowLanch" : {
+      "Game.WindowLanch(int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.WindowLanch$Exit" : {
+      "Game.WindowLanch$Exit(Game.WindowLanch)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.Help" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.NavigationBar" : {
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "actionPerformed(java.awt.event.ActionEvent)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.GameElementPanel" : {
+      "Game.GameElementPanel(java.lang.String,int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.GameElementPanel(Game.Mino)" : {
+        "test_plan_row_2" : "COVERED",
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.GameOver$ScoreTablePanel" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.GameOver$ScoreTablePanel(Game.GameOver,java.awt.Color)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "setValue(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "setLabel(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.QueuePanel" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.GamePanel$MatrixPanel" : {
+      "drawBackground(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "minoToMatrixElement(Game.Mino)" : {
+        "test_plan_row_2" : "UNCOVERED_EXEC_FAIL",
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.GamePanel$MatrixPanel(Game.GamePanel)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "removeRow(int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.HighScoreManager" : {
+      "updateScoreFile(java.lang.Boolean)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getListe(int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "Game.HighScoreManager(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "Game.HighScoreManager(int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "setListe(java.util.Vector,Game.Score,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "trieListe(Game.Score,java.util.Vector)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    },
+    "Game.ChooseLevel" : {
+      "getPanel(int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "setBackImage(java.awt.Image)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.Option" : {
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "draw(java.awt.Graphics)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "COVERED"
+      },
+      "actionPerformed(java.awt.event.ActionEvent)" : {
+        "test_plan_row_1" : "COVERED"
+      }
+    },
+    "Game.HighScore" : {
+      "setId(int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "testHighScore(int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "paintComponent(java.awt.Graphics)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      },
+      "getImg(java.lang.String,int,int)" : {
+        "test_plan_row_1" : "UNCOVERED_EXEC_FAIL"
+      }
+    }
+  }
+}

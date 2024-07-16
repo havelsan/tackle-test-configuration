@@ -1,0 +1,64 @@
+{
+  "building_block_sequences_info" : {
+    "base_sequences" : 81,
+    "parsed_base_sequences_full" : 71,
+    "parsed_base_sequences_partial" : 3,
+    "skipped_base_sequences" : 3,
+    "exception_base_sequences" : 4,
+    "method_sequence_pool_keys" : 19,
+    "class_sequence_pool_keys" : 35
+  },
+  "extended_sequences_info" : {
+    "generated_sequences" : 106,
+    "executed_sequences" : 106,
+    "failing_sequences" : 66,
+    "failing_sequences_bad_path" : 0,
+    "final_sequences" : 40,
+    "diff_assertions" : 838
+  },
+  "test_plan_coverage_info" : {
+    "test_plan_target_methods" : 1,
+    "test_plan_rows" : 106,
+    "rows_covered_full" : 40,
+    "rows_covered_partial" : 0,
+    "rows_covered_full_jee" : 0,
+    "rows_covered_partial_jee" : 0,
+    "rows_covered_bb_sequences" : 18
+  },
+  "ctd_coverage_info" : {
+    "interaction_level" : 1,
+    "methods_over_one_row" : 14,
+    "average_ctd_cov" : "0.29",
+    "average_ctd_cov_bb_sequences" : "0.15"
+  },
+  "uncovered_test_plan_rows_info" : {
+    "no_bb_sequence_for_target_method" : 0,
+    "non_instantiable_param_type" : 0,
+    "execution_failed" : 66,
+    "exception_during_extension" : 0,
+    "exception_info" : {
+      "randoop_operation_parse_exception" : 0,
+      "randoop_illegal_argument_exception" : 0,
+      "class_not_found_exception" : 0,
+      "no_such_method_exception" : 0,
+      "no_array_element_type" : 0,
+      "unsupported_collection_type" : 0,
+      "sequence_exec_invocation_target_exception" : 0,
+      "sequence_exec_illegal_access_exception" : 0,
+      "sequence_exec_illegal_argument_exception" : 0,
+      "sequence_exec_error" : 0,
+      "sequence_exec_other_exception" : 0
+    }
+  },
+  "execution_exception_types_other" : [ ],
+  "parse_exception_types" : {
+    "randoop.sequence.SequenceParseException" : 4
+  },
+  "non_instantiable_types" : [ ],
+  "class_not_found_types" : [ ],
+  "execution_fail_exception_types" : {
+    "java.lang.ArrayIndexOutOfBoundsException" : 2,
+    "java.lang.IllegalArgumentException" : 1,
+    "java.lang.NullPointerException" : 63
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_Mino_Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.003">
+  <properties/>
+  <testcase name="test_Mino_0" classname="Game.Game_Mino_Test" time="0.0"/>
+  <testcase name="test_Mino_1" classname="Game.Game_Mino_Test" time="0.0"/>
+  <testcase name="test_Mino_2" classname="Game.Game_Mino_Test" time="0.0"/>
+  <testcase name="test_rotate_0" classname="Game.Game_Mino_Test" time="0.0"/>
+  <testcase name="test_move_0" classname="Game.Game_Mino_Test" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

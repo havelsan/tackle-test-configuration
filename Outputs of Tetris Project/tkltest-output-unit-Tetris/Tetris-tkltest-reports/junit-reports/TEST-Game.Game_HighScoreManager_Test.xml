@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_HighScoreManager_Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.005">
+  <properties/>
+  <testcase name="test_HighScoreManager_0" classname="Game.Game_HighScoreManager_Test" time="0.002"/>
+  <testcase name="test_HighScoreManager_1" classname="Game.Game_HighScoreManager_Test" time="0.0"/>
+  <testcase name="test_updateScoreFile_0" classname="Game.Game_HighScoreManager_Test" time="0.003"/>
+  <system-out><![CDATA[[Update] FNF Error: src/Game (No such file or directory),the program will try and make a new file
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

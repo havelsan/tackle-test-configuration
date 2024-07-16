@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.Game_Help_Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:33" hostname="emircan-VirtualBox" time="0.01">
+  <properties/>
+  <testcase name="test_getImg_0" classname="Game.Game_Help_Test" time="0.008"/>
+  <testcase name="test_getImg_1" classname="Game.Game_Help_Test" time="0.002"/>
+  <system-out><![CDATA[!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/Icons/right.png"} not found :: null
+!! Ereur : image {"img/Icons/right.png"} not found :: null
+!! Ereur : image {"img/Icons/left.png"} not found :: null
+!! Ereur : image {"img/Icons/left.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"img/background4.jpg"} not found :: null
+!! Ereur : image {"img/Icons/right.png"} not found :: null
+!! Ereur : image {"img/Icons/right.png"} not found :: null
+!! Ereur : image {"img/Icons/left.png"} not found :: null
+!! Ereur : image {"img/Icons/left.png"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+!! Ereur : image {"Game.Score"} not found :: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

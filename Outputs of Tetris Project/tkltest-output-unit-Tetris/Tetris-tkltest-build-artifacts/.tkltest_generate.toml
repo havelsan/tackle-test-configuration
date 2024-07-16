@@ -1,0 +1,37 @@
+command = "generate"
+subcommand = "ctd-amplified"
+
+[general]
+app_name = "Tetris"
+app_classpath_file = "/home/emircan/projects/Tetris/tkltest-output-unit-Tetris/Tetris_build_classpath.txt"
+monolith_app_path = [ "/home/emircan/projects/Tetris/build/classes/java/main",]
+java_jdk_home = "/usr/lib/jvm/java-11-openjdk-amd64"
+test_directory = "../tkltest-output-unit-Tetris/Tetris-ctd-amplified-tests"
+reports_path = "../tkltest-output-unit-Tetris/Tetris-tkltest-reports"
+verbose = true
+offline_instrumentation = false
+build_type = "gradle"
+max_memory_for_coverage = 4096
+
+[generate]
+no_diff_assertions = false
+target_class_list = []
+excluded_class_list = []
+time_limit = 1
+app_build_files = [ ".././build.gradle",]
+app_build_settings_files = []
+bad_path = false
+app_build_ant_target = ""
+
+[generate.ctd_amplified]
+base_test_generator = "CombinedTestGenerator"
+no_augment_coverage = false
+no_ctd_coverage = false
+interaction_level = 1
+num_seq_executions = 10
+reuse_base_tests = false
+
+[generate.evosuite]
+criterion = [ "BRANCH",]
+
+[generate.randoop]

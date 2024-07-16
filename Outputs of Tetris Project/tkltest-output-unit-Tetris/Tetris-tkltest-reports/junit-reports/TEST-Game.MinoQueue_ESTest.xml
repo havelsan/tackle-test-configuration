@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Game.MinoQueue_ESTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-12T09:58:34" hostname="emircan-VirtualBox" time="0.018">
+  <properties/>
+  <testcase name="test3" classname="Game.MinoQueue_ESTest" time="0.01"/>
+  <testcase name="test2" classname="Game.MinoQueue_ESTest" time="0.004"/>
+  <testcase name="test1" classname="Game.MinoQueue_ESTest" time="0.002"/>
+  <testcase name="test0" classname="Game.MinoQueue_ESTest" time="0.002"/>
+  <system-out><![CDATA[12:58:33.995 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: Game.MinoQueue_ESTest
+12:58:33.998 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'Game.MinoQueue_ESTest'.
+12:58:34.050 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: Game.MinoQueue_ESTest_scaffolding
+12:58:34.050 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'Game.MinoQueue_ESTest_scaffolding'.
+12:58:34.054 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: Game.MinoQueue_ESTest_scaffolding
+12:58:34.054 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: Game.MinoQueue_ESTest
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-XAWT"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "TimerQueue"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Test worker"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:36346 to /127.0.0.1:45559 workers"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:36346 to /127.0.0.1:45559 workers Thread 2"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "/127.0.0.1:36346 to /127.0.0.1:45559 workers Thread 3"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-EventQueue-0"
+12:58:34.129 [Test worker] DEBUG org.evosuite.runtime.sandbox.MSecurityManager - Adding privileged thread: "Common-Cleaner"
+12:58:34.166 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: Game.Mino
+12:58:34.167 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'Game.Mino'.
+12:58:34.204 [Test worker] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class Game/Mino
+12:58:34.312 [Test worker] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class Game/Mino
+12:58:34.313 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: Game.Mino
+12:58:34.314 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Seeing class for first time: Game.MinoQueue
+12:58:34.314 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Instrumenting class 'Game.MinoQueue'.
+12:58:34.315 [Test worker] INFO org.evosuite.runtime.instrumentation.MethodCallReplacementClassAdapter - Adding mock interface to class Game/MinoQueue
+12:58:34.319 [Test worker] INFO org.evosuite.runtime.instrumentation.CreateClassResetClassAdapter - Creating brand-new static initializer in class Game/MinoQueue
+12:58:34.319 [Test worker] INFO org.evosuite.runtime.instrumentation.EvoClassLoader - Keeping class: Game.MinoQueue
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

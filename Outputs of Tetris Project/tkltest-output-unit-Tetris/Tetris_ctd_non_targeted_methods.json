@@ -1,0 +1,32 @@
+{
+  "monolithic" : {
+    "Game.About" : {
+      "action()V" : "private"
+    },
+    "Game.Mino" : {
+      "getReverseRotationIndexById(I)I" : "private"
+    },
+    "Game.HighScore" : {
+      "remplir()V" : "private",
+      "remplir(Ljava/lang/String;Ljavax/swing/JPanel;I)V" : "private"
+    },
+    "Game.Help" : {
+      "draw1(Ljava/awt/Graphics;)V" : "private",
+      "Effait(I)V" : "private",
+      "draw4(Ljava/awt/Graphics;)V" : "private",
+      "draw2(Ljava/awt/Graphics;)V" : "private",
+      "draw3(Ljava/awt/Graphics;)V" : "private",
+      "Effait2(I)V" : "private",
+      "draw5(Ljava/awt/Graphics;)V" : "private",
+      "draw(Ljava/awt/Graphics;)V" : "private",
+      "draw0(Ljava/awt/Graphics;)V" : "private",
+      "draw6(Ljava/awt/Graphics;)V" : "private"
+    },
+    "Game.Vue" : {
+      "barPanelMouseDragged(Ljava/awt/event/MouseEvent;)V" : "private",
+      "Undecorated()V" : "private",
+      "barPanelMousePressed(Ljava/awt/event/MouseEvent;)V" : "private",
+      "maximizerMouseClicked(Ljava/awt/event/MouseEvent;)V" : "private"
+    }
+  }
+}

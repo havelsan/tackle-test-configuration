@@ -1,0 +1,77 @@
+{
+  "interaction_level" : 1,
+  "ctd_coverage" : {
+    "monolithic" : {
+      "Game.Mino" : {
+        "<init>(LGame/Mino;Z)" : {
+          "ctd_coverage" : "1.00",
+          "ctd_coverage_bb_sequences" : "0.67"
+        }
+      },
+      "Game.MinoQueue" : {
+        "setHeld(LGame/Mino;)V" : {
+          "ctd_coverage" : "1.00",
+          "ctd_coverage_bb_sequences" : "0.50"
+        }
+      },
+      "Game.GamePanel$MatrixPanel" : {
+        "minoToMatrixElement(LGame/Mino;)V" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        }
+      },
+      "Game.Ghost" : {
+        "<init>(LGame/Mino;)" : {
+          "ctd_coverage" : "1.00",
+          "ctd_coverage_bb_sequences" : "0.50"
+        }
+      },
+      "Game.GamePanel" : {
+        "checkMinoAgainstMatrixAndCorrect(LGame/Mino;)V" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "<init>(Ljavax/swing/JFrame;)" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "minoOutOfBounds(LGame/Mino;)Z" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "checkMinoAgainstMatrix(LGame/Mino;)Z" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "checkMinoAgainstBorders(LGame/Mino;)V" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "checkGhostAgainstMatrix(LGame/Mino;Ljava/awt/Point;)Z" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "checkMoveAgainstMatrix(LGame/Mino;Ljava/awt/Point;)V" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        },
+        "bottomEmpty(LGame/Mino;)Z" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        }
+      },
+      "Game.GameElementPanel" : {
+        "<init>(LGame/Mino;)" : {
+          "ctd_coverage" : "1.00",
+          "ctd_coverage_bb_sequences" : "0.50"
+        }
+      },
+      "Game.WindowLanch$Efait" : {
+        "<init>(LGame/WindowLanch;ILjavax/swing/JFrame;)" : {
+          "ctd_coverage" : "0.00",
+          "ctd_coverage_bb_sequences" : "0.00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Efait.new ActionListener() {...},21,0,0,0,4,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ActionListener() {...},5,6,0,0,2,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ActionListener() {...},4,6,0,0,2,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ActionListener() {...},7,6,0,0,3,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Exit.new ActionListener() {...},13,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Option.new ComponentAdapter() {...},4,6,0,0,2,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Exit.new ActionListener() {...},12,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,GameOver.new ActionListener() {...},5,6,0,0,3,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,GamePanel,1581,0,180,0,344,0,118,0,28,0
+Tetris-tkltest-build-artifacts,Game,Vue.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new MouseAdapter() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,GamePanel.MatrixPanel,640,0,80,0,100,0,48,0,8,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,GameOver,32,596,3,5,5,89,3,4,0,3
+Tetris-tkltest-build-artifacts,Game,Option,495,640,21,7,84,111,18,5,4,5
+Tetris-tkltest-build-artifacts,Game,Vue.new MouseMotionAdapter() {...},11,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,MinoQueue,28,40,0,2,5,9,3,3,3,2
+Tetris-tkltest-build-artifacts,Game,NavigationBar,273,380,24,4,71,84,15,5,1,5
+Tetris-tkltest-build-artifacts,Game,GameOver.ScoreTablePanel,15,60,0,0,3,14,1,3,1,3
+Tetris-tkltest-build-artifacts,Game,HighScore.new ComponentAdapter() {...},164,0,0,0,11,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,HighScore.new ActionListener() {...},37,0,2,0,8,0,3,0,2,0
+Tetris-tkltest-build-artifacts,Game,HighScore.new ActionListener() {...},43,0,2,0,9,0,3,0,2,0
+Tetris-tkltest-build-artifacts,Game,Mino,1779,338,58,14,177,58,38,14,4,5
+Tetris-tkltest-build-artifacts,Game,HighScore.new ActionListener() {...},77,0,2,0,13,0,3,0,2,0
+Tetris-tkltest-build-artifacts,Game,About.new ComponentAdapter() {...},31,6,0,0,8,1,3,1,3,1
+Tetris-tkltest-build-artifacts,Game,About.new ActionListener() {...},0,10,0,0,0,3,0,2,0,2
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ComponentAdapter() {...},9,6,0,0,5,1,3,1,3,1
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ActionListener() {...},5,6,0,0,2,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,ChooseLevel.new ActionListener() {...},5,6,0,0,2,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,Vue,660,0,6,0,145,0,16,0,13,0
+Tetris-tkltest-build-artifacts,Game,Score,0,15,0,0,0,6,0,3,0,3
+Tetris-tkltest-build-artifacts,Game,HighScore,1294,0,14,0,194,0,20,0,13,0
+Tetris-tkltest-build-artifacts,Game,About,246,411,11,1,27,83,7,3,1,3
+Tetris-tkltest-build-artifacts,Game,GamePanel.Status,54,0,0,0,2,0,1,0,1,0
+Tetris-tkltest-build-artifacts,Game,HighScoreManager,180,49,9,1,47,16,9,3,4,3
+Tetris-tkltest-build-artifacts,Game,Help.new ActionListener() {...},58,0,8,0,9,0,6,0,2,0
+Tetris-tkltest-build-artifacts,Game,Help.new ActionListener() {...},51,0,8,0,7,0,6,0,2,0
+Tetris-tkltest-build-artifacts,Game,Help.new KeyListener() {...},19,6,4,0,7,1,5,1,3,1
+Tetris-tkltest-build-artifacts,Game,Help.new ActionListener() {...},16,6,2,0,5,1,2,1,1,1
+Tetris-tkltest-build-artifacts,Game,Help.new ActionListener() {...},17,6,2,0,5,1,2,1,1,1
+Tetris-tkltest-build-artifacts,Game,Help.new ComponentAdapter() {...},7,6,0,0,3,1,1,1,1,1
+Tetris-tkltest-build-artifacts,Game,_Lancher,8,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Help,1155,216,26,0,224,34,27,3,11,3
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},28,0,2,0,7,0,3,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.new KeyListener() {...},26,0,4,0,8,0,6,0,4,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},25,0,0,0,6,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.new ActionListener() {...},48,0,0,0,8,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Vue.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch,502,28,0,0,78,10,2,3,2,3
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Efait,271,0,12,0,44,0,10,0,4,0
+Tetris-tkltest-build-artifacts,Game,MatrixElement,107,9,0,0,12,4,2,1,2,1
+Tetris-tkltest-build-artifacts,Game,GamePanel.new ActionListener() {...},44,0,2,0,10,0,3,0,2,0
+Tetris-tkltest-build-artifacts,Game,GamePanel.new ActionListener() {...},39,0,0,0,9,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.new ActionListener() {...},13,0,0,0,4,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,GamePanel.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.new ActionListener() {...},13,0,0,0,4,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,ChooseLevel,183,319,0,0,34,53,8,6,8,6
+Tetris-tkltest-build-artifacts,Game,StatsPanel,252,0,0,0,49,0,3,0,3,0
+Tetris-tkltest-build-artifacts,Game,Timer,193,0,10,0,36,0,10,0,5,0
+Tetris-tkltest-build-artifacts,Game,GameElementPanel,135,79,10,2,23,21,8,2,2,2
+Tetris-tkltest-build-artifacts,Game,QueuePanel,137,0,8,0,26,0,8,0,4,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Exit.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
+Tetris-tkltest-build-artifacts,Game,Option.new ActionListener() {...},45,0,4,0,9,0,4,0,2,0
+Tetris-tkltest-build-artifacts,Game,WindowLanch.Exit,268,0,0,0,52,0,1,0,1,0
+Tetris-tkltest-build-artifacts,Game,GamePanel.KeyHandler,191,0,40,0,40,0,23,0,3,0
+Tetris-tkltest-build-artifacts,Game,Ghost,67,20,2,0,6,3,2,1,1,1
