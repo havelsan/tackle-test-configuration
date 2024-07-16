@@ -9,7 +9,7 @@ Before starting, ensure the following software is installed on your system:
 - **Gradle**: [Install Gradle](https://gradle.org/install/)
 - **Python 3.9+**: Supported versions are 3.9, 3.10, and 3.11
 - **JDK**: Supported versions are 8-11
-- **Build Systems**: Depending on the TackleTest features, install Ant, Maven, or Gradle. Maven is required for installing the CLI.
+- **Build Systems**: Depending on the TackleTest features, install Ant, Maven, or Gradle. `Maven` is required for installing the CLI.
 
 ## Step 1: Setting Up Gradle
 
