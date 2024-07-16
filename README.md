@@ -27,9 +27,9 @@ If your Java project does not have a `build.gradle` file, follow these steps:
 
 4. Build your project with the following command:
 
-\`\`\`sh
+```ruby
 gradle build
-\`\`\`
+```
 
 5. To run the application directly using Gradle, use the following command:
 
