@@ -171,7 +171,9 @@ Create a `tkltest_config.toml` file in the root directory of the project you wan
 tkltest-unit config init --file tkltest_config.toml
 ```
 
-The structure and description of the file can be found below:
+Information about the structure and configuration of the `tkltest_config.toml` file can be found in the following link or the template.
+
+[TackleTest-Unit Configuration Options](https://github.com/konveyor/tackle-test-generator-cli/blob/main/doc/unit/tkltest_unit_config_options.md)
 
 ```toml
 [general]
