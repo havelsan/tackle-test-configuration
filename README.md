@@ -301,7 +301,7 @@ The output will likely resemble the following:
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java
 ```
 
-To use this path in your 'tkltest_config.toml' file, you should format it as follows:
+To use this path in your `tkltest_config.toml` file, you should format it as follows:
 
 ```groovy
 java_jdk_home = “/usr/lib/jvm/java-11-openjdk-amd64”
@@ -318,7 +318,7 @@ After setting up the configuration file, you can generate test code using the fo
 tkltest-unit --verbose generate ctd-amplified
 ```
 
-The unit test cases will be generated in a folder named 'tkltest-output-unit-<app-name>/<app-name>-ctd-amplified-tests'. A CTD coverage report will be created as well in a folder named tkltest-output-unit-<app-name>/<app-name>-tkltest-reports, showing the CTD test plan row coverage achieved by the generated tests.
+The unit test cases will be generated in a folder named `tkltest-output-unit-<app-name>/<app-name>-ctd-amplified-tests`. A CTD coverage report will be created as well in a folder named tkltest-output-unit-<app-name>/<app-name>-tkltest-reports, showing the CTD test plan row coverage achieved by the generated tests.
 
 
 2. Execute the generated test code and get coverage reports:
@@ -326,7 +326,7 @@ The unit test cases will be generated in a folder named 'tkltest-output-unit-<ap
 ```sh
 tkltest-unit --verbose --test-directory tkltest-output-unit-<app-name>/<app-name>-ctd-amplified-tests execute
 ```
-JUnit reports and Jacoco code coverage reports will be created in 'tkltest-output-unit-<app-name>/<app-name>-tkltest-reports'.
+JUnit reports and Jacoco code coverage reports will be created in `tkltest-output-unit-<app-name>/<app-name>-tkltest-reports`.
 
 ## Configuration Options
 
