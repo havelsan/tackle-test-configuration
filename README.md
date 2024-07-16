@@ -21,7 +21,7 @@ If your Java project does not have a `build.gradle` file, follow these steps:
 
 ### Example `build.gradle` Template
 
-```ruby
+```groovy
 // Apply the Java and Application plugins
 plugins {
     // This plugin is used to compile and run Java applications
@@ -91,13 +91,13 @@ jar {
 
 4. Build your project with the following command:
 
-```ruby
+```sh
 gradle build
 ```
 
 5. To run the application directly using Gradle, use the following command:
 
-```ruby
+```sh
 gradle run
 ```
 
@@ -107,13 +107,13 @@ If your project builds and runs successfully, proceed to the next step.
 
 1. Clone the TackleTest Generator CLI repository:
 
-```ruby
+```sh
 git clone https://github.com/konveyor/tackle-test-generator-cli
 ```
 
 2. Download the necessary Java library dependencies:
 
-```ruby
+```sh
 cd /path/to/tackle-test-generator-cli
 cd tkltest-lib
 ./download_lib_jars.sh
@@ -131,7 +131,7 @@ cd tkltest-lib
 
 1. Create and activate a virtual environment:
 
-```ruby
+```sh
 python3 -m venv venv
 source venv/bin/activate
 pip install --editable .
@@ -141,7 +141,7 @@ pip install --editable .
 
 1. Install `pipx`:
 
-```ruby
+```sh
 sudo apt update
 sudo apt install pipx
 pipx ensurepath
@@ -149,7 +149,7 @@ pipx ensurepath
 
 2. Install the CLI globally:
 
-```ruby
+```sh
 cd /path/to/tackle-test-generator-cli
 pipx install .
 ```
@@ -158,7 +158,7 @@ pipx install .
 
 Run the following commands to verify that TackleTest Generator CLI has been successfully installed:
 
-```ruby
+```sh
 tkltest-unit --help
 tkltest-ui --help
 ```
@@ -175,13 +175,13 @@ After setting up the configuration file, you can generate test code using the fo
 
 1. Generate the test code:
 
-```ruby
+```sh
 tkltest-unit --verbose generate ctd-amplified
 ```
 
 2. Execute the generated test code and get coverage reports:
 
-```ruby
+```sh
 tkltest-unit --verbose --test-directory tkltest-output-unit-<app-name>/<app-name>-ctd-amplified-tests execute
 ```
 
