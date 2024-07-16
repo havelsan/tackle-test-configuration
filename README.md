@@ -21,9 +21,73 @@ If your Java project does not have a `build.gradle` file, follow these steps:
 
 ### Example `build.gradle` Template
 
-\`\`\`groovy
-// Add your build.gradle template here
-\`\`\`
+```ruby
+// Apply the Java and Application plugins
+plugins {
+    // This plugin is used to compile and run Java applications
+    id 'java'
+    // This plugin provides tasks for creating executable Java applications
+    id 'application'
+}
+
+// Define the group ID and version of the project
+group 'com.example' // Replace 'com.example' with your group ID
+version '1.0-SNAPSHOT' // Replace '1.0-SNAPSHOT' with your project version
+
+// Set the source compatibility for Java
+sourceCompatibility = '11' // Set the Java version to 11, modify as needed
+
+// Define the repositories to fetch dependencies from
+repositories {
+    mavenCentral() // Use Maven Central repository
+}
+
+// Define the dependencies required for the project
+dependencies {
+    // Add JUnit Jupiter for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
+    // Add JUnit Platform Launcher to run tests
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Configure the test task
+tasks.named('test', Test) {
+    useJUnitPlatform() // Use JUnit Platform for testing
+
+    maxHeapSize = '1G' // Set the maximum heap size for tests to 1 GB
+
+    testLogging {
+        events "passed" // Log events when tests pass
+    }
+}
+
+// Configure the application plugin
+application {
+    // Specify the main class of the application
+    mainClass = 'Game._Lancher' // Replace 'Game._Lancher' with your main class
+}
+
+// Define the source sets for the project
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src'] // Specify the source directory for Java files
+        }
+        resources {
+            srcDirs = ['src'] // Specify the source directory for resource files
+        }
+    }
+}
+
+// Configure the jar task
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'Game._Lancher' // Set the Main-Class attribute in the manifest file
+        )
+    }
+}
+```
 
 4. Build your project with the following command:
 
@@ -33,9 +97,9 @@ gradle build
 
 5. To run the application directly using Gradle, use the following command:
 
-\`\`\`sh
+```ruby
 gradle run
-\`\`\`
+```
 
 If your project builds and runs successfully, proceed to the next step.
 
@@ -43,17 +107,17 @@ If your project builds and runs successfully, proceed to the next step.
 
 1. Clone the TackleTest Generator CLI repository:
 
-\`\`\`sh
+```ruby
 git clone https://github.com/konveyor/tackle-test-generator-cli
-\`\`\`
+```
 
 2. Download the necessary Java library dependencies:
 
-\`\`\`sh
+```ruby
 cd /path/to/tackle-test-generator-cli
 cd tkltest-lib
 ./download_lib_jars.sh
-\`\`\`
+```
 
 ### Prerequisites for Tackle-Test
 
@@ -67,37 +131,37 @@ cd tkltest-lib
 
 1. Create and activate a virtual environment:
 
-\`\`\`sh
+```ruby
 python3 -m venv venv
 source venv/bin/activate
 pip install --editable .
-\`\`\`
+```
 
 #### Option 2: Global Installation
 
 1. Install `pipx`:
 
-\`\`\`sh
+```ruby
 sudo apt update
 sudo apt install pipx
 pipx ensurepath
-\`\`\`
+```
 
 2. Install the CLI globally:
 
-\`\`\`sh
+```ruby
 cd /path/to/tackle-test-generator-cli
 pipx install .
-\`\`\`
+```
 
 ### Verifying Installation
 
 Run the following commands to verify that TackleTest Generator CLI has been successfully installed:
 
-\`\`\`sh
+```ruby
 tkltest-unit --help
 tkltest-ui --help
-\`\`\`
+```
 
 ## Step 3: Creating the Configuration File
 
@@ -111,15 +175,15 @@ After setting up the configuration file, you can generate test code using the fo
 
 1. Generate the test code:
 
-\`\`\`sh
+```ruby
 tkltest-unit --verbose generate ctd-amplified
-\`\`\`
+```
 
 2. Execute the generated test code and get coverage reports:
 
-\`\`\`sh
+```ruby
 tkltest-unit --verbose --test-directory tkltest-output-unit-<app-name>/<app-name>-ctd-amplified-tests execute
-\`\`\`
+```
 
 ## Configuration Options
 
