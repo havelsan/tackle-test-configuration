@@ -126,8 +126,8 @@ tkltest-unit --config-file ./test/data/irs/tkltest_config.toml --verbose generat
 ```sh
 tkltest-unit --config-file ./test/data/irs/tkltest_config.toml --verbose execute
 ```
-The tests produced can be accessed by going tackle-test-generator-cli/tkltest-output-unit-irs/irs-ctd-amplified-tests,
-and you can also view the test reports created with JACOCO and JUnit from irs-tkltest-reports folder.
+The tests produced can be accessed by going `tackle-test-generator-cli/tkltest-output-unit-irs/irs-ctd-amplified-tests`,
+and you can also view the test reports created with JACOCO and JUnit from `irs-tkltest-reports folder`.
 
 
 
