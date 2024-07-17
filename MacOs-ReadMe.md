@@ -81,6 +81,25 @@ After the build process, code in below is used to run the application.
 gradle run
 ```
 
+## Tackle-Test Installation
+There are multiple options for installation, by visiting [this](https://github.com/konveyor/tackle-test-generator-cli/releases) link and downloading
+`tackle-test-generator-cli-v2.4.5-all-deps.zip` file, installation can be done in the easiest way by downloading the file containing all dependencies.
+After the download is completed, use the terminal to go to the directory where the downloaded file is located, and run the code below through the terminal.
+```sh
+python3 -m venv venv
+source venv/bin/activate
+pip install --editable .
+```
+With this step, Tackle-Test installation is completed, you can verify that the program has been installed correctly by running the following code through the terminal.
+```sh
+tkltest-unit --help
+tkltest-ui --help
+```
+If any problems arise, you can find more information [here](https://github.com/konveyor/tackle-test-generator-cli/blob/main/doc/installation.md).
+
+
+
+
 
 
 
