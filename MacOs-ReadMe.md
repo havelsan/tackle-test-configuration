@@ -5,7 +5,7 @@
 Before you start, make sure that the appropriate versions of the following programs are installed in your system.
 - **Python:** Versions 3.9 or newer are supported. 
 - **Java Development Kit:** Versions 8-11 or newer are supported, JDK-11 is more preferable.
-  JDK-11 can be downloaded [here](https://www.oracle.com/java/technologies/downloads/#license-lightbox) ARM64, and [here](https://www.oracle.com/java/technologies/downloads/#license-lightbox) for X64.
+  JDK-11 can be downloaded [here](https://www.oracle.com/java/technologies/downloads/#license-lightbox) for ARM64, and [here](https://www.oracle.com/java/technologies/downloads/#license-lightbox) for X64.
 - **Build Automation Tool:** One of the Gradle, Ant or Maven software must be installed on the system. The following parts of the project were progressed using Gradle. Click [here](https://gradle.org/install/) for more information about installing Gradle.
 
 ## Gradle Part
@@ -64,7 +64,7 @@ jar {
 ```
 
 
-
+<br>
 
 ### Building Project
 
@@ -72,7 +72,7 @@ To build the project, go to the directory where the build.gradle file is located
 ```sh
 gradle build
 ```
- 
+ <br>
 
 ### Running Project
 
@@ -80,16 +80,21 @@ After the build process, code in below is used to run the application.
 ```sh
 gradle run
 ```
+<br>
 
-## Tackle-Test Installation
+### TacklTest Installation
+
 There are multiple options for installation, by visiting [this](https://github.com/konveyor/tackle-test-generator-cli/releases) link and downloading
 `tackle-test-generator-cli-v2.4.5-all-deps.zip` file, installation can be done in the easiest way by downloading the file containing all dependencies.
+<br>
 After the download is completed, use the terminal to go to the directory where the downloaded file is located, and run the code below through the terminal.
+
 ```sh
 python3 -m venv venv
 source venv/bin/activate
 pip install --editable .
 ```
+<br>
 With this step, Tackle-Test installation is completed, you can verify that the program has been installed correctly by running the following code through the terminal.
 ```sh
 tkltest-unit --help
@@ -128,6 +133,88 @@ tkltest-unit --config-file ./test/data/irs/tkltest_config.toml --verbose execute
 ```
 The tests produced can be accessed by going `tackle-test-generator-cli/tkltest-output-unit-irs/irs-ctd-amplified-tests`,
 and you can also view the test reports created with JACOCO and JUnit from `irs-tkltest-reports folder`.
+
+## Creating Configuration File
+
+A configuration file with .toml extension is created for Test generation in the root directory of the Java project. For the Tetris project, I named this file `TetrisConfig.toml`. You can make it suitable for your own project by changing the parameters in the file given as a template below. 
+
+```toml
+name = "TKLTEST_CONFIG_FILE"
+
+# General options for the TKLTEST configuration
+[general]
+    app_name = "TetrisDeneme"  # Name of the application
+    # monolith_app_path = ["test/data/irs/monolith/target/classes"]  # Uncomment to specify the path for monolith application classes
+    # app_classpath_file = "test/data/irs/irsMonoClasspath.txt"  # Uncomment to specify the classpath file for the application
+    java_jdk_home = "/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home"  # Path to the Java JDK home
+    offline_instrumentation = true  # Enable offline instrumentation
+    build_type = "gradle"  # Specify the build tool used (Gradle)
+
+# Options for the "tkltest generate" command
+[generate]
+    time_limit = 10  # Time limit for test generation in minutes
+    add_assertions = true  # Add assertions to the generated tests
+    app_build_files = ['/Users/remzialtiparmak/Desktop/havelsan-unit-test-project/build.gradle']  # Path to the application's build file
+    target_class_list = [
+        # List of target classes for test generation
+    ]
+
+# Options for the "tkltest generate randoop" command
+[generate.randoop]
+    no_error_revealing_tests = true  # Do not generate error-revealing tests
+
+# Options for the "tkltest generate evosuite" command
+[generate.evosuite]
+    criterion = ["LINE", "BRANCH", "EXCEPTION", "WEAKMUTATION", "OUTPUT", "METHOD", "METHODNOEXCEPTION", "CBRANCH"]  # Coverage criteria for EvoSuite
+
+# Options for the "tkltest generate ctd-amplified" command
+[generate.ctd_amplified]
+    base_test_generator = "combined"  # Base test generator to use
+    interaction_level = 7  # Interaction level for combinatorial testing
+    no_ctd_coverage = true  # Do not use combinatorial testing coverage
+    num_seq_executions = 3  # Number of sequential executions
+
+# Options for the "tkltest execute" command
+[execute]
+    test_class = ""  # Specify the test class to execute
+    code_coverage = true  # Enable code coverage reporting
+    app_packages = ["Game.*"]  # Application packages to include in the coverage
+
+[dev_tests]
+    build_targets = ['coverage-reports_user-tests']  # Build targets for development tests
+    coverage_exec_file = '/Users/remzialtiparmak/Desktop/havelsan-unit-test-project/user-tests/jacoco.exec'  # Path to the coverage execution file
+
+```
+<br>
+
+The monolith_app_path and app_classpath_file variables normally included in the configuration file are not necessary since we already have a build file in this project. If you do not have a build file, you need to make appropriate assignments to these variables. To personalize the tests generated for your own project and to produce more detailed tests, you can add various variables to the configuration file example above. You can find detailed information about these variables [here](https://github.com/konveyor/tackle-test-generator-cli/blob/main/doc/unit/tkltest_unit_config_options.md).
+
+## Generating Test
+
+After the creation of the test configuration file, the following code is run by using terminal.
+```sh
+tkltest-unit --config-file /Users/remzialtiparmak/Desktop/TestProject/tkltest_config.toml  --verbose generate ctd-amplified
+```
+<br>
+Make sure that the configuration file is entered correctly here. 
+The `ctd-amplified` expression used in the above command is a test generation sequence. Tackle-test has two different code generation strategies called `evosuite` and `randoop`. You can find the most efficient test generation strategy for your own project by typing `evosuite` or `randoop` instead of `ctd-amplified` in the command above.
+
+After the test generation process is completed, the tests produced are saved in the `tkltest-output-unit-TetrisDeneme` folder.
+
+## Executing Test
+
+After the test generation process is completed, the generated tests can be executed by running the following command. After the tests are executed, Jacoco and JUnit reports are saved in the tkltest-output-unit-TetrisDeneme directory, where you can analyze the test results.
+
+```sh
+tkltest-unit --config-file /Users/remzialtiparmak/Desktop/TestProject/tkltest_config.toml  --verbose execute
+```
+<br>
+For more information, you can visit [source repository](https://github.com/konveyor/tackle-test-generator-cli/tree/main) repository and [this](https://opensource.com/article/21/8/tackle-test) article.
+
+
+
+#### Documented by [Remzi Altıparmak](https://github.com/RemziAltiparmak6)
+
 
 
 
